@@ -1,0 +1,61 @@
+{
+"DefaultContentLanguage": "en",
+"baseURL" : "/",
+"languageCode" : "en-us",
+"title" : "Office of Water Programs",
+"theme" : "owp",
+"params":{
+"popularCourses": true,
+"courseInfo":[
+{
+"title":"Water Treatment Plant Operation: Volume 1",
+"img": "/img/courses/med/wtpo1.jpg",
+"desc": "This course is designed to train operators to safely and effectively operate and maintain drinking water treatment plants.",
+"ceu": "9 CEUs (90 contact hours)",
+"edition": "6th Edition, 2008",
+"enroll": "$50 USD",
+"manual": "$90 USD",
+"detailbtn": "/operator-training/courses/correspondence-courses/drinking-water-courses/water-treatment-plant-operation-v1/",
+"cartbtn": "/"
+},
+{
+"title":"Water Treatment Plant Operation: Volume 2",
+"img": "/img/courses/med/wtpo2-02.jpg",
+"desc": "This course is designed to train operators to safely and effectively operate and maintain wastewater treatment plants.",
+"ceu": "9 CEUs (90 contact hours)",
+"edition": "6th Edition, 2008",
+"enroll": "$50 USD",
+"manual": "$90 USD",
+"detailbtn": "/operator-training/courses/correspondence-courses/drinking-water-courses/water-treatment-plant-operation-v1/",
+"cartbtn": "/"
+},
+{
+"title":"Water Distribution System Operation and Maintenance",
+"img": "/img/courses/med/wds-02.jpg",
+"desc": "This course is designed to train operators to safely and effectively operate and maintain water distribution systems.",
+"ceu": "9 CEUs (90 contact hours)",
+"edition": "6th Edition, 2008",
+"enroll": "$50 USD",
+"manual": "$90 USD",
+"detailbtn": "/operator-training/courses/correspondence-courses/drinking-water-courses/water-treatment-plant-operation-v1/",
+"cartbtn": "/"
+
+},
+{
+"title":"Small Water System Operation and Maintenance",
+"img": "/img/courses/med/sws.png",
+"desc": "This course is designed to train operators to safely and effectively operate and maintain small water systems and treatment plants",
+"ceu": "9 CEUs (90 contact hours)",
+"edition": "6th Edition, 2008",
+"enroll": "$50 USD",
+"manual": "$90 USD",
+"detailbtn": "/operator-training/courses/correspondence-courses/drinking-water-courses/water-treatment-plant-operation-v1/",
+"cartbtn": "/"
+}
+],
+"universityconnection": true,
+"course_types": true,
+"slider": true
+}
+}
+

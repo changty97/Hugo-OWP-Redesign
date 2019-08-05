@@ -1,0 +1,73 @@
+{
+	"title": "Water Treatment Plant Operation, Volume 2",
+	"date": "2019-06-11T12:18:13-07:00",
+	"Description": "course detail",
+	"courseType": "Drinking Water Courses",
+	"Tags": [],
+	"Categories": [],
+	"draft": false,
+	"img": "/img/courses/med/wtpo2.jpg",
+	"objective": "This course, a continuation of Volume I, is designed to train operators to safely and effectively operate and maintain drinking water treatment plants.",
+	"scope": "This course is designed to train operators in the practical aspects of operating and maintaining water treatment plants, emphasizing safe practices and procedures. Information is presented on drinking water regulations (including the Safe Drinking Water Act), iron and manganese control, fluoridation, softening, trihalomethanes, demineralization, handling and disposal of process wastes, maintenance, instrumentation, and advanced laboratory procedures. Administrative procedures for dealing with budgeting, setting rates, recordkeeping, personnel administration, public relations, and emergency planning are also covered in this course.",
+	"ceu": "9 CEUs (90 contact hours)",
+	"edition": "6th Edition, 2015",
+	"isbn": "ISBN 978-1-59371-068-2",
+	"time_limit": "6 months",
+	"table_index": [
+	{
+		"title": "Iron and Manganese Control",
+		"text": "<strong>Objectives</strong><br>Following completion of Chapter 12, students should be able to:<ol><li>Identify and describe the various processes used to control iron and manganese.</li><li>Collect samples for analysis of iron and manganese.</li><li>Safely operate and maintain the following iron and manganese control processes:</li><ol><li>Phosphate treatment</li><li>Ion exchange</li><li>Oxidation by aeration</li><li>Oxidation with chlorine</li><li>Oxidation with permanganate</li><li>Greensand</li><li>Proprietary processes</li></ol><li>Troubleshoot red water problems.</li></ol>The main purpose of this chapter is to teach operators how to safely operate and maintain iron and manganese control processes."
+	},
+	{
+		"title": "Fluoridation",
+		"text": "<strong>Objectives</strong><br>Following completion of Chapter 13, students should be able to:<ol><li>Explain the reason for fluoridating drinking water.</li><li>Describe how fluoridation programs are implemented.</li><li>List the compounds used to furnish fluoride ion.</li><li>Review designs and specifications of fluoridation equipment.</li><li>Inspect fluoridation equipment.</li><li>Start up a chemical feeder.</li><li>Operate and maintain a chemical feeder.</li><li>Calculate fluoride dosages.</li><li>Prepare fluoride solutions.</li><li>Develop and keep accurate fluoride log sheets.</li><li>Prevent overfeeding of fluoride.</li><li>Shut down chemical feed systems.</li><li>Safely handle fluoride compounds.</li></ol>The main purpose of this chapter is to teach operators how to safely operate and maintain fluoridation processes."
+	},
+	{
+		"title": "Softening",
+		"text": "<strong>Objectives</strong><br>Following completion of Chapter 14, students should be able to:<ol><li>Explain what makes water hard and the advantages of softening.</li><li>Describe the processes used to soften water.</li><li>Prepare chemical doses to soften water with considerations given to coagulants and stability.</li><li>Safely handle softening chemicals.</li><li>Dispose of process sludges and brines.</li><li>Keep neat and accurate softening records.</li><li>Perform jar tests and apply results.</li><li>Operate and maintain chemical precipitation and ion exchange softening processes.</li><li>Start up and shut down water softening units.</li><li>Blend softened waters with unsoftened waters (split treatment) for delivery to consumers.</li></ol>The main purpose of this chapter is to teach operators how to safely operate and maintain processes used to soften water."
+	},
+	{
+		"title": "Specialized Treatment Processes",
+		"text": "<strong>Objectives</strong><br>Following completion of Chapter 15, students should be able to:<ol><li>Describe how trihalomethanes are formed.</li><li>Explain why trihalomethanes are a problem in drinking water.</li><li>Collect samples for trihalomethane analysis.</li><li>Identify control strategies for trihalomethanes.</li><li>Describe treatment processes capable of controlling trihalomethanes.</li><li>Select and implement a cost-effective means of controlling trihalomethanes.</li><li>Describe why we are concerned about arsenic.</li><li>Review the various water treatment processes used for reduction or removal of arsenic.</li><li>Safely operate, maintain, and troubleshoot a typical arsenic treatment plant.</li><li>Review the plans and specifications for an arsenic treatment plant.</li><li>Properly dispose of wastewater and residuals from an arsenic treatment plant.</li><li>Monitor an arsenic treatment plant for process control and compliance.</li><li>Properly perform recordkeeping and reporting tasks for an arsenic treatment plant.</li></ol>The main purpose of this chapter is to teach operators how to safely operate and maintain specialized water treatment processes."
+	},
+	{
+		"title": "Membrane Treatment Processes (Membrane Filtration and Demineralization)",
+		"text": "<strong>Objectives</strong><br>Following completion of Chapter 16, students should be able to:<ol><li>Describe various membrane technologies used to treat water.</li><li>Explain various types of membrane filtration processes.</li><li>Evaluate potential membrane pretreatment alternatives.</li><li>Operate and maintain a membrane filtration treatment plant.</li><li>Keep accurate and appropriate records for a membrane filtration plant.</li><li>Develop, implement, and maintain a membrane filtration plant maintenance program.</li><li>Describe the various demineralizing processes.</li><li>Explain how the reverse osmosis process works.</li><li>Operate and maintain a reverse osmosis demineralization plant.</li><li>Explain the principles of electrodialysis.</li><li>Identify and describe the parts of an electrodialysis plant.</li><li>Operate and maintain an electrodialysis plant.</li><li>Safely perform their duties around reverse osmosis and electrodialysis plants.</li></ol>The main purpose of this chapter is to teach operators how to safely operate and maintain membrane filtration treatment plants and also reverse osmosis and demineralization plants."
+	},
+	{
+		"title": "Handling and Disposal of Process Wastes",
+		"text": "<strong>Objectives</strong><br>Following completion of Chapter 17, students should be able to:<ol><li>Explain why the operators of water treatment plants should be concerned about the handling and disposal of process wastes.</li><li>Identify the sources of water treatment plant wastes.</li><li>Drain and clean sedimentation tanks.</li><li>Discharge process wastes to collection systems (sewers).</li><li>Operate and maintain backwash recovery ponds (lagoons) and sludge drying beds.</li><li>Dispose of process wastes.</li><li>Safely operate and maintain sludge handling and disposal equipment.</li><li>Monitor and report on the disposal of process wastes.</li></ol>The main purpose of this chapter is to teach operators how to safely operate and maintain processes used to handle and dispose of process wastes."
+	},
+	{
+		"title": "Maintenance",
+		"text": "<strong>Objectives</strong><br>Following completion of Chapter 18, students should be able to:<ol><li>Develop a maintenance program for your plant, including equipment, buildings, grounds, channels, and tanks.</li><li>Start a maintenance recordkeeping system that will provide you with information to protect equipment warranties, to prepare budgets, and to satisfy regulatory agencies.</li><li>Schedule maintenance of equipment at proper time intervals.</li><li>Perform maintenance as directed by manufacturers.</li><li>Recognize symptoms that indicate equipment is not performing properly, identify the source of the problem, and take corrective action.</li><li>Recognize the serious consequences that could occur when inexperienced, unqualified, or unauthorized persons attempt to troubleshoot or repair electrical panels, controls, circuits, wiring, or equipment.</li><li>Communicate with electricians by indicating possible causes of problems in electrical panels, controls, circuits, wiring, and motors.</li><li>Properly select and use the following pieces of equipment (if qualified and authorized):</li><ol><li>Multimeter</li><li>Ammeter</li><li>Megger</li><li>Ohmmeter</li></ol><li>Safely operate and maintain auxiliary electrical equipment, including during standby and emergency situations.</li><li>Describe how a pump is put together.</li><li>Discuss the application or use of different types of pumps.</li><li>Start and stop pumps.</li><li>Maintain the various types of pumps.</li><li>Operate and maintain a compressor.</li><li>Develop and conduct an equipment lubrication program.</li><li>Start up, operate, maintain, and shut down gasoline engines, diesel engines, heating, ventilating, and air conditioning systems.</li></ol>NOTE: Special maintenance information is given in the previous chapters on treatment processes, where appropriate. The main purpose of this chapter is to teach operators how to develop a maintenance program, schedule maintenance activities, maintain equipment and facilities, record maintenance performed, and analyze maintenance records."
+	},
+	{
+		"title": "Instrumentation and Control Systems",
+		"text": "<strong>Objectives</strong><br>Following completion of Chapter 19, students should be able to:<ol><li>Explain the purpose and nature of instrumentation and control systems.</li><li>Identify, avoid, and correct safety hazards associated with instrumentation work.</li><li>Recognize various types of sensors and transducers.</li><li>Read instruments and make proper adjustments in the operation of water treatment facilities.</li><li>Identify symptoms of measurement and control system problems.</li></ol>The main purpose of this chapter is to teach operators how to read and maintain instrumentation and controls, and how to determine the location and cause of failures in each."
+	},
+	{
+		"title": "Safety",
+		"text": "<strong>Objectives</strong><br>Following completion of Chapter 20, students should be able to:<ol><li>List the responsibilities of operators and management for waterworks safety.</li><li>Identify and safely handle hazardous chemicals.</li><li>Recognize fire hazards and properly extinguish various types of fires.</li><li>Safely maintain waterworks equipment and facilities.</li><li>Properly operate and maintain vehicles.</li><li>Recognize electrical hazards.</li><li>Safely perform duties in a laboratory.</li><li>Protect other operators and themselves while working in and around waterworks facilities.</li></ol>The main purpose of this chapter is to teach operators how to develop safety programs, recognize hazards and unsafe procedures, and do their jobs safely."
+	},
+	{
+		"title": "Advanced Laboratory Procedures",
+		"text": "<strong>Objectives</strong><br>Following completion of Chapter 21, students should be able to:<ol><li>Explain how a spectrophotometer analyzes samples of water.</li><li>Perform the following field or laboratory tests—algae counts, calcium, chloride, color, dissolved oxygen, fluoride, iron, manganese, marble test, metals, nitrate, pH, specific conductance, sulfate, taste and odor, trihalomethanes, and total dissolved solids.</li></ol>The main purpose of this chapter is to teach operators how to accurately analyze samples and properly record laboratory results."
+	},
+	{
+		"title": "Drinking Water Regulations",
+		"text": "<strong>Objectives</strong><br>Following completion of Chapter 22, students should be able to:<ol><li>Identify the two basic types of water systems.</li><li>List the types of primary contaminants.</li><li>Explain the Total Coliform Rule.</li><li>Explain the Surface Water Treatment Rules.</li><li>Describe the Primary Drinking Water Standards.</li><li>List the secondary contaminants.</li><li>Develop and conduct a sampling program.</li><li>Record and report results.</li><li>Comply with notification requirements.</li><li>Prepare a Consumer Confidence Report (CCR).</li></ol>The main purpose of this chapter is to inform operators about the major types of drinking water regulations, including the Safe Drinking Water Act."
+	},
+	{
+		"title": "Administration",
+		"text": "<strong>Objectives</strong><br>Following completion of Chapter 23, students should be able to:<ol><li>Identify the functions of a manager.</li><li>Describe the benefits of short-term, long-term, and emergency planning.</li><li>Define the following terms:</li><ol><li>Authority</li><li>Responsibility</li><li>Delegation</li><li>Accountability</li><li>Unity of command</li></ol><li>Read and construct an organizational chart identifying lines of authority and responsibility.</li><li>Write a job description for a specific position within the utility.</li><li>Develop good interview questions.</li><li>Conduct employee evaluations.</li><li>Describe the steps necessary to provide equal and fair treatment to all employees.</li><li>Prepare a written or oral report on the utility's operations.</li><li>Communicate effectively within the organization, with media representatives, and with the community.</li><li>Describe the financial strength of their utility.</li><li>Calculate their utility's operating ratio, coverage ratio, and simple payback.</li><li>Prepare a contingency plan for emergencies.</li><li>Prepare a plan to strengthen the security of their utility's facilities.</li><li>Set up a safety program for their utility.</li><li>Collect, organize, file, retrieve, use, and dispose of plant records.</li><li>Describe the basic elements of water and energy conservation and associated best management practice (BMP) strategies.</li></ol>The main purpose of this chapter is to introduce operators to the administration of a utility."
+	}
+	],
+	"other_sections": ["Comprehensive Review Questions and Suggested Answers", "How to Solve Water Treatment Plant Arithmetic Problems", "Abbreviations", "Water Words", "Index"],
+	"enrollments": "$50 USD",
+	"manuals": "$49 USD",
+	"course_package": "$99 USD",
+	"instructor_guide": "Instructor guides provide a set of chapter tests and answer keys for verified instructors. The guides are not available for sale online. Customers must meet our instructor criteria to order this item. Please call customer service for pricing and ordering requirements at (916) 278-6142.",
+	"preview_link" : "http://www.owp.csus.edu/courses/preview/wtpo2.pdf",
+	"cartbtn": "abcd.html"
+}

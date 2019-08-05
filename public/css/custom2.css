@@ -1,0 +1,2435 @@
+.annual-reports img{
+    float:left; margin-right: 50px; height: 220px;
+}
+.login-form{
+    min-width:260px;
+    float: left!important;
+}
+
+.login-form input{
+    min-width:275px;
+}
+
+body {
+    background: rgba(255, 255, 255, 1.0);
+    font-family: 'Lato', sans-serif;
+    transition: background-color .5s;
+    font-weight: normal;
+    padding: 0;
+}
+p {
+    margin: 0;
+    margin-bottom:7px;
+    margin-top: 7px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #0a0a0a;
+}
+h4 {
+    font-size: 17px;
+}
+
+h1, h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: rgba(38, 78, 68, 1.0);
+}
+
+h3 {
+    font-size: 1.5em;
+    color: rgba(38, 78, 68, 1.0);
+}
+.captions p{
+    color: white;
+}
+#panel .columns {
+    float: left;
+}
+
+.sac-logo {
+    float: left;
+    margin:15px
+}
+
+.sac-logo img {
+    height: 53px;
+    width: 275px;
+}
+
+.sac-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sac-menu li {
+    float: left;
+
+}
+
+.sac-menu {
+    float: right;
+}
+
+.sac-menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.sac-menu .navbar, .navbar-inverse {
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 0;
+    min-height: 40px;
+    color: black;
+}
+
+.sac-menu .nav li {
+    display: inline;
+}
+
+.sac-menu .navbar-inverse .navbar-nav > li > a {
+    font-family: "Lato", sans-serif;
+    color: black;
+    font-size: 13px;
+    padding: 10px 5px 0 10px;
+}
+
+.sac-menu .navbar-inverse .navbar-nav li a:hover {
+    transition: 0.7s all linear;
+    height: 100%;
+}
+
+.sac-menu nav {
+    color: black;
+    float: right;
+    background-color: white;
+}
+
+.sac-menu .icon-bar {
+    background-color: lightgreen;
+}
+
+#water-program {
+
+    background: rgba(38, 78, 68, 1.0);
+    padding-left: 5em;
+    padding-top: 1em;
+    z-index: 11;
+    min-height: 7em;
+    /*transition: 0.2s;*/
+}
+
+.fixed-water-programs {
+    position: fixed;
+    background: rgba(38, 78, 68, 1.0) !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 1em !important;
+    height: 7em !important;
+    z-index: 1;
+}
+
+.owp-logo {
+    margin-left: 40px;
+}
+.owp-logo img{
+    margin-bottom:1rem;
+}
+
+#menu, #menu a {
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 7px;
+    margin-left: -65px;
+    cursor: pointer;
+    padding: 1em;
+
+}
+
+.fixed-menu {
+    position: fixed;
+    margin-left: 0 !important;
+    background: rgba(0, 46, 35, 0.85) !important;
+    top: 0;
+    left: 0;
+    color: black;
+    /*width: 100%;*/
+    padding-top: 0em !important;
+    height: 4em !important;
+    z-index: 1;
+}
+
+.sidenav {
+    height: calc(100vh);
+    width: 0;
+    position: absolute;
+    z-index: 5;
+    top: 151px;
+    left: 0;
+    background: rgba(247, 247, 247, 0.98);
+    /*overflow-x: hidden;*/
+    overflow: auto;
+    transition: width 0.5s;
+    padding-top: 60px;
+    border-right: 1px solid #70BF49;
+}
+
+.sidenav a {
+    padding: 0;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(38, 78, 68, 1.0);
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus {
+    color: #70BF49;
+}
+
+.sidenav li {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav li:hover, .offcanvas li:focus {
+    color: #70BF49;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.js-drilldown-back > a::before{
+    border-right-style: solid;
+	border-color: transparent #70BF49 transparent transparent;
+}
+
+.is-drilldown-submenu-parent > a::after {
+	border-left-style: solid;
+	border-color: transparent transparent transparent #70BF49;
+}
+
+.is-accordion-submenu-parent > a::after {
+    border-color: white transparent transparent;
+}
+
+#m1 {
+    max-width: 224px;
+}
+
+#userLogin {
+    float: right;
+    margin-right: 11%;
+    color:#ccc;
+    vertical-align:bottom;
+}
+
+#userLogin i {
+    color: white;
+    font-size: 35px;
+    margin-top: 15px;
+}
+#userLogin a{
+    color:#fff;
+}
+.main-carousel .orbit-container > .orbit-slide > img {
+    position: absolute;
+    margin-top: -20rem;
+
+}
+
+.orbit-slide {
+    height: auto;
+    min-height: 15vh;
+    max-height: 47vh;
+}
+
+#exploreout {
+    /*  min-width: 22%;
+    width: auto;*/
+
+    width: 22%;
+}
+
+#explore {
+    padding: 5px;
+    margin-top: 22px;
+    background: rgba(255, 255, 255, 0.5);
+    color: #021e14;
+    margin-bottom: 15px;
+}
+
+h1.grnhead {
+    color: rgba(0, 46, 35, 0.75);
+}
+
+.explore-button {
+    padding-top: .5rem;
+    padding-bottom: .125rem;
+    color: white;
+    min-height: 30px;
+    height: auto;
+    padding-left: 10px;
+    margin: 5px;
+}
+
+.explore-button h4 {
+    transition: all 1s ease;
+}
+
+.explore-button :hover {
+    padding-left: 20px;
+    cursor: pointer;
+}
+.online-course-btn {
+   padding:8px; 
+   max-width:265px;
+   max-height:55px;
+   cursor: pointer;
+   overflow: hidden;
+}
+.online-course-btn a{
+    color: white;
+    text-decoration: none;
+    text-align:center;
+}
+#university {
+    background-color: #566928;
+}
+
+#stormwater-online-btn{
+    background-color:  rgba(93,78,63,1.0)!important;
+}
+
+#facilities {
+    background-color: #708c2c;
+}
+
+#eventspre {
+    background-color: #97b059;
+}
+
+#newsrelease {
+    background-color: #939871;
+}
+#correspondence-course img{
+    height:281px; 
+    width:225px;
+}
+#correspondence-course h4{
+    padding:8px;
+    margin-top:5px;
+    color:white;
+}
+#correspondence-course>div{
+    padding: 5px;
+}
+#history {
+    background-color: #7b858a;
+}
+
+#uconnect {
+    background-color: #5b656a;
+}
+
+#level1 {
+    position: relative;
+    /*width: 78%;
+    max-height: 47vh;
+    min-height: 15vh;
+    /*min-height: 35vh; second time change
+    height: auto;
+    /* min-width: 773px; added height property*/
+}
+
+.row, .grid-container {
+    margin: 0;
+    max-width: 100%;
+    background: rgba(0, 46, 35, 0.25);
+    text-align: left;
+}
+
+.row a, .grid-container a {
+    font-size: 1em;
+    font-weight: 700;
+
+}
+
+.slide5 {
+    margin-top: -80px;
+}
+
+.crop {
+
+    width: auto;
+    min-height: 15vh;
+    max-height: 47vh;
+    height: auto;
+    /*height: 435px; changed height to auto and added min height 35vh and max height 47vh */
+    overflow: hidden;
+}
+
+.btngo a {
+    background-color: #FF0000;
+    border-color: #043927;
+
+}
+
+.btngo {
+    background: #97b059;
+}
+
+.button.success {
+    color: white;
+    background-color: #5cb85c;
+    border: solid 1px white;
+    font-weight: normal !important;
+    font-size: 14px;
+    overflow: visible;
+}
+
+.button.success:hover {
+    color: white;
+    background-color: #449d44;
+    border: solid 1.5px white;
+}
+
+.button-success:focus {
+    color: white !important;
+}
+
+.extra {
+    padding: 2em;
+    margin-top: 2em;
+}
+
+.extra a {
+    color: rgba(0, 132, 83, 1.0);
+    text-decoration: underline;
+}
+
+#portfolio .thumbnail, .thumbnail {
+    background: rgba(255, 255, 255, 0.75);
+    transition: all 0.5s ease;
+    /*border: none !important;*/
+    box-shadow: unset !important;
+    border-radius: 2px;
+    padding: 2em;
+    height: auto;
+    min-height: 660px;
+    text-align: center;
+    border: 1px solid #ddd;
+    /*margin:2px;*/
+    width: 99.5%;
+}
+
+#portfolio .thumbnail:hover, .thumbnail:hover {
+    background: rgba(255, 255, 255, 1.0);
+    cursor: pointer;
+
+}
+
+.thumbnail p {
+    text-align: left;
+    width: auto;
+    font-size: 16px !important;
+}
+
+.show {
+    padding: 10px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid black;
+    visibility: visible;
+    position: absolute;
+    top: auto !important;
+    left: inherit;
+    /*float: right;
+    right: 5%;*/
+    z-index: 1060;
+}
+
+#main-panels .thumbnail .header, #portfolio > .header {
+    color: #ffffff;
+    padding: 10px;
+    font-size: 1.5em !important;
+}
+
+#staff-profile .register-form-panel {
+    padding-bottom: 10px !important;
+    padding: 3px;
+}
+#staff h4{
+ color: rgba(0,100,114,1);
+}
+.large-quote {
+    font-size: 36px;
+    color: rgba(0, 132, 83, 1.0);
+    margin-left: .5em;
+}
+
+#main-panels h3 a {
+    margin-top: 8px;
+}
+
+.extra .thumbnail, .extra .thumbnail p {
+    text-align: left;
+
+}
+
+.extra .thumbnail h3 a, .extra h3 a {
+    padding: 6px 12px;
+    background: #97b059;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 28px;
+}
+
+.reveal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.reveal-body {
+    position: relative;
+    padding: 15px;
+}
+
+.reveal-body .row, .reveal-body .grid-container {
+    margin: 0;
+    max-width: 100%;
+    background: white;
+}
+
+.reveal {
+    border-radius: 6px;
+}
+
+.close-button {
+    padding: 6px 17px;
+}
+
+.reveal h3 {
+    color: #ffffff;
+    background: rgba(0, 46, 35, 0.5);
+    padding: 0.4em;
+    font-size: 1.5em !important;
+}
+
+#books .thumbnail {
+    min-height: 740px;
+}
+
+#books .columns {
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 1px;
+}
+
+#portfolio .thumbnail {
+    min-height: 740px;
+}
+
+#portfolio .columns {
+    /*padding-left: 15px;
+    padding-right: 15px;*/
+    min-height: 1px;
+}
+
+#portfolio h3.operator-training-header-3 {
+    color: #ffffff;
+    background: #818181;
+    padding: 1em;
+    font-size: 1.5em !important;
+}
+
+#portfolio h3.stormwater-training-header-3 {
+    color: #ffffff;
+    background: rgba(0, 132, 83, 1.0);
+    padding: 1em;
+    font-size: 1.5em !important;
+}
+
+/*h4.waterheader {
+   background: rgba(0, 114, 120, 1.0);
+   color: #fff;
+   padding: 1em;
+   font-weight: 700;
+   text-align: left;
+   }*/
+
+   #portfolio h4.wdsheader {
+    background: rgba(112, 202, 203, 1.0);
+    color: #fff;
+    padding: 1em;
+    font-weight: 700;
+    text-align: left;
+}
+
+#portfolio h3.wasteheader {
+    background: rgba(0, 133, 84, 1.0);
+    color: #fff;
+    padding: 1em;
+    font-weight: 700;
+    text-align: left;
+}
+
+#portfolio h3.continuingheader, h4.continuingheader {
+    background: rgba(0, 96, 61, 1.0);
+    color: #fff;
+    padding: 1em;
+    font-weight: 700;
+    text-align: left;
+}
+
+#portfolio h3.onlineheader, h4.onlineheader {
+    background: rgba(0, 170, 79, 1.0);
+    color: #fff;
+    padding: 1em;
+    font-weight: 700;
+    text-align: left;
+}
+
+.toctoggle {
+    color: #ffffff;
+    font-weight: 700;
+    background: rgba(151, 176, 89, 1.0) !important;
+    padding-top: 1em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1px;
+}
+
+.toctoggle:hover, .toctoggle:focus {
+    background: rgba(151, 176, 89, 0.5);
+    color: #000;
+}
+
+.reveal-body .menu > li > a {
+    padding: 0;
+}
+
+.reveal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+
+.button-default {
+    background: white;
+    color: black;
+    border: 1px solid #e5e5e5;
+}
+
+.button-default:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+.template-title {
+    text-align: left;
+    width: auto;
+    min-height: 55px;
+    height: auto;
+}
+
+.template-content {
+    text-align: left;
+    min-height: 200px;
+    height: auto;
+}
+
+.template-content-online {
+    height: 25px;
+    color: rgba(0, 114, 120, 1.0);
+}
+
+.lightpanel {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 1.5rem !important;
+    margin-bottom: 1.5rem;
+    border-radius: 2px;
+    min-height: 34rem !important;
+}
+
+.extra-light {
+    padding: 2em;
+    margin-top: 2em;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* @end site navigation
+------------------------------------- */
+/* @group footer
+=============================================================================================================== */
+footer {
+    background: #024830;
+    color: #fff;
+    padding: 20px 0 0 0;
+    position: absolute;
+    width: 100%;
+}
+
+footer .logo {
+    width: 216px;
+    height: 42px;
+    margin: 0 0 1em;
+}
+
+footer address {
+    color: #fff;
+}
+
+/* @group social icons / footer variation
+===================================== */
+
+/* (smaller, alternate colors) */
+footer .social-icon {
+    color: #00573d;
+    height: 26px;
+    width: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    padding: 8px;
+}
+
+footer .social-icon:hover {
+    background: #002E20;
+    color: #fff;
+}
+
+footer #facebookIcon:hover {
+    background: #3B5998;
+    color: #fff;
+}
+
+footer #twitterIcon:hover {
+    background: #4099ff;
+    color: #fff;
+}
+
+footer #flickrIcon:hover {
+    background: #f059a4;
+    color: #fff;
+}
+
+footer #youTubeIcon:hover {
+    background: #e03c33;
+    color: #fff;
+}
+
+footer #instagramIcon:hover {
+    background: #ab8166;
+    color: #fff;
+    background: -webkit-linear-gradient(left, red, orange, yellow, green, #479aff, #9d654f6, #ab8166, #ab8166, #ab8166, #ab8166, #ab8166, #ab8166, #ab8166, #ab8166); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, red, orange, yellow, green, #479aff, #9d654f, #ab8166, #ab8166, #ab8166, #ab8166, #ab8166, #ab8166, #ab8166, #ab8166); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, red, orange, yellow, green, #479aff, #9d654f, #ab8166, #ab8166, #ab8166, #ab8166, #ab8166, #ab8166, #ab8166, #ab8166); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, red, orange, yellow, green, #479aff, #9d654f, #ab8166, #ab8166, #ab8166, #ab8166, #ab8166, #ab8166, #ab8166, #ab8166); /* Standard syntax */
+}
+
+/* @end social icons / footer variation
+------------------------------------- */
+
+/* @group nav-links / footer variation
+===================================== */
+.footer-links {
+    margin-top: 0.5em;
+}
+
+.footer-links nav ul {
+    display: table-cell;
+
+}
+
+footer .nav-links {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    list-style: none;
+}
+
+footer .nav-links + .nav-links {
+}
+
+footer .nav-links li {
+    font-size: 13px;
+}
+
+footer .nav-links li a {
+    color: #a3bdb4;
+    text-decoration: none;
+}
+
+/* @end nav links / footer variation
+------------------------------------- */
+
+/* @postFooter
+=============================================================================================================== */
+#postFooter {
+    background: rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 20px 0 0 0;
+}
+
+#postFooter li {
+    list-style: none;
+    float: left;
+    padding: 5px 10px;
+    color: #3a6e5c;
+}
+
+#postFooter li a {
+    font-size: 12px;
+    color: #c9e4db;
+}
+
+#postFooter ul {
+    padding-right: 12px;
+}
+
+/* @end footer
+-------------------------------------------------------------------------- */
+/* @group social icons
+===================================== */
+
+/* (social icon circle style) */
+.social-icon {
+    display: block;
+    background: #CBB677;
+    color: #fff;
+    border-radius: 50%;
+    height: 46px;
+    width: 46px;
+    line-height: 46px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* (social icon circle style - hover) */
+.social-icon:hover {
+    background: #DBCC9C;
+    color: #fff;
+}
+
+.social-icon span {
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    top: -10px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/* @end social icons
+------------------------------------- */
+footer .social-icon {
+    padding: 0px;
+}
+
+footer .row, footer .grid-container {
+    max-width: 80rem;
+    margin-right: auto;
+    margin-left: auto;
+    background: #024830;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.button-block {
+    border-radius: 4px;
+}
+
+#main {
+    max-width: 1960px;
+    align-content: center;
+    transition: all 0.5s ease;
+}
+
+/*To let the Main Navigation to be open when the page loads*/
+/*#side-nav {
+    width: 250px;
+}
+
+#main {
+    margin-left: 250px;
+    }*/
+
+    /*body{backgroundColor : rgba(0,0,0,0.4);}*/
+/*#m1 {
+    width: 224px;
+    }*/
+/*.footer-links a{
+    border-bottom: 1px solid white;
+    border-bottom-width: 0;
+}
+.footer-links a:hover{
+    border-bottom: 1px solid white;
+
+    }*/
+    .fixed-side-nav {
+        position: fixed;
+        top: 0; /* top: 4em*/
+        left: 0;
+
+        /*  width: 100%;*/
+    }
+
+/*.is-drilldown {
+    }*/
+
+    .is-drilldown {
+        min-height: 840px !important;
+        max-width: 100% !important;
+        overflow: hidden;
+        width: 300px;
+        height: 100px;
+        /*overflow-y: scroll;*/
+        scrollbar-color: rebeccapurple green;
+        scrollbar-width: thin;
+    }
+
+    #efclogos {
+        display: none;
+    }
+
+    #efclogol {
+        display: block;
+    }
+
+    footer .row, footer .grid-container {
+        padding: 20px;
+    }
+
+    #footercol1 {
+        width: 20%;
+        float: left;
+        border-right: 2px solid white;
+        height: 100px;
+        display: block;
+    }
+
+    #footercol2 {
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        width: 25%;
+        float: left;
+    }
+
+    #footercol3 {
+        width: 20%;
+        float: left;
+        padding-left: 2%;
+    }
+
+    #footercol4 {
+        width: 30%;
+        float: left;
+        display: block;
+    }
+
+    #fix-header .menu {
+        width: 100%;
+        height: 50px;
+        background: white;
+        /*position:fixed;*/
+        z-index: 10;
+    }
+
+    #fix-header .menu a {
+        color: rgba(0, 46, 35, 0.85);
+    }
+
+    .menu > li > a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        line-height: 20px;
+        /*font-size: 1em;*/
+        font-weight: 700;
+        margin-bottom: 1px;
+        margin-top: 1px;
+
+    }
+
+    .research-main-band {
+        height: 600px;
+        padding: 0;
+    }
+
+    #overlay, .overlay {
+        height: 600px;
+        padding: 0;
+        background-blend-mode: soft-light;
+        overflow: hidden;
+        background-color: #bfc9c5;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #software-tools-content {
+        padding-top: 50px;
+        padding-left: 50px;
+        background: whitesmoke;
+        padding-bottom: 50px;
+    }
+
+    #operator_str .arrow {
+        background-color: unset;
+    }
+
+    #operator-general-info h1 {
+        color: rgba(38, 78, 68, 1.0) !important;
+    }
+
+    #software-tools-content p {
+        color: #024830;
+        margin-top: 10px;
+    }
+
+    #operator_str h1 {
+        color: #024830 !important;
+    }
+
+    #operator_str {
+        font-size: 17px;
+    }
+
+    #newsrelease {
+        color: white;
+        background-color: #97b059;
+        min-height: 30px;
+        height: auto;
+        padding-left: 10px;
+        padding-top: 4px;
+        margin: 5px;
+        transition: all 1s ease;
+    }
+
+    #university, #stormwater-online-btn {
+        background-color: #8b346d;
+        color: white;
+        min-height: 30px;
+        height: auto;
+        padding-left: 10px;
+        padding-top: 4px;
+        margin: 5px;
+        transition: all 1s ease;
+    }
+
+    #eventspre {
+        background-color: #58b947 !important;
+        color: white;
+        /* background-color: pink;*/
+        min-height: 30px;
+        height: auto;
+        padding-left: 10px;
+        padding-top: 4px;
+        margin: 5px;
+        transition: all 1s ease;
+    }
+
+    #eventspre :hover {
+        padding-left: 20px;
+        cursor: pointer;
+    }
+    #content ul{
+        list-style: disc;
+    }
+
+    #history {
+        background-color: #4e58a6;
+        color: white;
+        min-height: 30px;
+        height: auto;
+        padding-left: 10px;
+        padding-top: 4px;
+        margin: 5px;
+        transition: all 1s ease;
+    }
+
+    #history :hover {
+        padding-left: 20px;
+        cursor: pointer;
+    }
+
+    button#history, button#eventspre, a#history , a#eventspre {
+        background-color: #006472;
+        height: 50px;
+        font-size: 18px;
+        min-height: 50px;
+        min-width: 281px;
+        padding: 8px;
+        margin-left: 10%;
+        width: 30%;
+    }
+
+    #overlay-text {
+        padding-top: 50px;
+        padding-left: 20px;
+        background-color: rgba(1, 87, 60, 0.65);
+        color: #e5eeeb;
+        padding-bottom: 50px;
+    }
+
+    #overlay-text iframe {
+        display: none;
+    }
+
+    #overlay-text p, .overlay p, #stormwatercontant p {
+        color: #e5eeeb;
+        margin-top: 80px;
+        font-size: 19px;
+        height: 367px;
+        padding-left: 5%;
+        width: 85%;
+    }
+
+    #arrow, .arrow {
+        padding-top: 200px !important;
+        padding-bottom: 200px !important;
+        text-align: right;
+        background-color: rgba(230, 226, 209, 0.5);
+    }
+
+    #arrow i, .arrow i {
+        font-size: 200px;
+        color: rgba(0, 78, 56, 0.45);
+        padding-right: 15%;
+        transition: 1s ease;
+    }
+
+    #arrow i:hover, .arrow i:hover {
+        padding-right: 5%;
+        color: rgba(0, 78, 56, 0.70);
+    }
+
+    #basicQualification #arrow i {
+        padding-right: 20%;
+        /*  color: rgba(230,226,209,0.5);*/
+        /*   padding-right: 0;*/
+    }
+
+    #basicQualification #arrow i:hover {
+        /*  color: rgba(230,226,209,0.7);*/
+        padding-right: 10%;
+    }
+
+    body {
+        opacity: 1;
+        transition: 0.2s opacity;
+        font-size: 14px;
+    /*
+    transition: all 1s ease;
+    */
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+/*#storm-water-content{*/
+    #stormwater-panel-list {
+
+        position: absolute;
+        top: 1px !important;
+        /* top:auto;*/
+        transition: 0.2s top ease;
+    }
+
+    /*#storm-water-content.slide-in{*/
+        #stormwater-panel-list.slide-in {
+            top: 70vh;
+            position: absolute;
+
+            transition: none;
+
+        }
+
+        #featured-items-main {
+            padding: 0px;
+            height: 600px;
+            /*width: 1px;*/
+            /*opacity: 0;*/
+            transition: all 0.75s ease;
+        }
+
+/*#featured-items-main.slide {
+    width: 100%;
+    padding: 0px;
+    height: 600px;
+}
+#basicQualification.slide {
+    width: 100%;
+    padding: 0px;
+    height: 600px;
+}
+*/
+#basicQualification {
+    padding: 0px;
+    height: 600px;
+    transition: all 1s ease;
+}
+
+html {
+    background-color: rgb(220, 228, 226);
+    background-image: url('../svg/icons/OWP-Short-SacState-Logo-White.svg');
+    background-size: 100vh 100vh;
+    background-repeat: no-repeat;
+}
+
+#stormwater #overlay, #stormwater .overlay {
+    /*  background-image: url('../images/IMG_1496 - artsy.JPG');
+    background-color: rgba(0, 0, 0, 0.30);*/
+    background-color: #e6e6e6;
+    height: 100%;
+    max-width: 1960px;
+    min-height: 100vh;
+    overflow: hidden;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#stormwater h4, #wastewater h4, #research h4,
+#soil-groundwater h4, #stormwater-bmp-courses h4, #public-lookup-tool h4,
+#igp h4, #stormwater-training h4, #research_str h4 {
+    font-family: 'Oxygen', Myriad Pro, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    background: rgba(0, 46, 35, 0.5);
+    padding: 1rem;
+}
+
+#stormwater .thumbnail .panel-content h4 {
+    font-weight: lighter;
+    font-size: 16px;
+    height: 77px;
+}
+
+#stormwater .thumbnail .panel-content {
+    min-height: unset;
+    padding-top: 0;
+}
+
+#research-content #stormwater .thumbnail {
+    padding: 1em;
+    border: none;
+    min-height: unset;
+}
+
+#featured-items h4, #cgp h4 {
+    font-family: 'Oxygen', Myriad Pro, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    background: rgba(0, 46, 35, 0.5);
+    padding: 0.5rem;
+}
+
+#stormwater p, #wastewater p, #cgp p,
+#research p, #soil-groundwater p, #featured-items p,
+#stormwater-bmp-courses p, #public-lookup-tool p, #igp p,
+#stormwater-training p, #research_str p, #glossary p {
+    text-align: left;
+    min-width: 240px;
+    /* margin-top: 10px;*/
+}
+
+#stormwater .panel, #research .panel, #wastewater .panel,
+#glossary .panel, #cgp .panel, #soil-groundwater .panel,
+#featured-items .panel, #stormwater-bmp-courses .panel, #public-lookup-tool .panel,
+#igp .panel, #stormwater-training .panel, #research_str .panel {
+    width: 25%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#stormwater .thumbnail, #research .thumbnail, #stormwater-training .thumbnail,
+#wastewater .thumbnail, #cgp .thumbnail, #soil-groundwater
+.thumbnail, #featured-items .thumbnail, #stormwater-bmp-courses .thumbnail,
+#public-lookup-tool .thumbnail, #igp .thumbnail, #research_str .thumbnail {
+    min-height: 680px;
+}
+
+#stormwater .panel-content, #research .panel-content, #research_str .panel-content, #stormwater-training .panel-content, #wastewater .panel-content, #cgp .panel-content, #soil-groundwater .panel-content, #featured-items .panel-content, #stormwater-bmp-courses .panel-content, #public-lookup-tool .panel-content, #igp .panel-content {
+    min-height: 173px;
+    padding-top: 18px;
+
+}
+
+#storm-water-content .panel-button, #storm-water-content .panel-button1,
+#research-content .panel-button, #research-content .panel-button1, #stormwater-content .panel-button, #stormwater-content .panel-button1 {
+    display: none;
+}
+
+.top-bar a {
+    color: white;
+    background: rgba(0, 132, 83, 1.0);
+    margin-left: 1px;
+}
+
+.top-bar a:hover, .top-bar a:focus {
+    background: rgba(38, 78, 68, 1.0);
+}
+
+#glossary-firstLetters a {
+    text-decoration: underline;
+}
+
+#glossary-links {
+    margin-bottom: 20px;
+}
+
+
+
+#faq_topics .highlight {
+    float: none;
+    margin-right: auto;
+}
+
+#research-menu, #regional-lid-tabs {
+    padding: 0;
+    margin-bottom: 1px;
+}
+
+#research-band-small-screen {
+    display: none;
+}
+
+#research-band-small-screen .overlay p {
+    height: 200px;
+    float: left;
+    margin-top: 0;
+}
+
+#featured-vid {
+    width: 378px;
+    height: 246px;
+    float: left;
+}
+
+#register .row, #shopping-cart .row, #operator-training-page .row,
+#student-account .row, #register .grid-container,
+#upcomingEvents .row, #annualReport .row,
+#previous-water-seminar .row, #aboutUs .row,
+#stromwater_admin_search .row {
+    padding: 28px;
+    background: rgba(0, 46, 35, 0.03);
+}
+
+#staff-profile, #staff-profile .row {
+    background: rgba(0, 46, 35, 0.03);
+}
+
+#operator-training-page > .row {
+    padding: 10px;
+}
+
+#operator-intro, #operator-courses-buttons, #specialist-certificate{
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+.owp-slides i {
+    position: relative;
+    float: right;
+    margin-top: 1px;
+    margin-left: 5px;
+}
+
+#register-form-panel, .register-form-panel {
+    /*border: 1px solid rgba(0, 46, 35, 0.09);*/
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 5px;
+    overflow: auto;
+}
+
+.thumbnail > .thumnail-panel {
+    border: 0;
+    min-height: 350px;
+    padding: 0;
+}
+
+#register-form-header, .register-form-header {
+    background-color: rgba(38, 78, 68, 0.75);
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    padding: 8px;
+    margin-bottom: 5px; 
+}
+.form-header-dark{
+    background: rgba(0, 46, 35, 0.5);
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    padding: 8px;
+    margin-bottom: 5px;        
+    margin-top: 5px;
+}
+#catalog-detail{
+    margin-top: 17px;
+}
+#catalog-detail img{
+    margin-bottom: 30px;
+}
+#catalog-detail .breadcrumbs{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px!important;
+    background-color: unset;
+}
+#instructor_guide{
+   border:1px solid #ccc;
+   padding:15px;   
+}
+.lid .register-form-header{
+    background: rgba(0, 46, 35, 0.5);
+}
+.lid .row{
+    padding: 10px;
+    background-color: white;
+}
+#aboutUs label {
+    width: auto;
+}
+
+#register label, #upcomingEvents label, #annualReport label, #previous-water-seminar label, #aboutUs label {
+    font-size: 17px;
+}
+
+input:checked ~ .switch-paddle {
+    background: #5cb85c;
+}
+
+#staff {
+    background: white !important;
+    margin-top:10px;
+}
+
+#staff #profiledata {
+    float: left;
+    margin-left: 25px;
+    /*margin-left: 45px;*/
+    position: relative;
+    top: 50%;
+    width: 71%;
+}
+#staff > .columns{
+    min-height:150px;
+}
+#staff img {
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+
+.img-circle {
+    border-radius: 50%;
+    border: 6px solid rgba(138, 148, 30, 1.0);
+}
+#profile-main{
+    min-width:260px; 
+    padding: 14px;
+}
+#profile-main h1{
+    color: rgba(38, 78, 68, 1.0)!important;
+}
+#profile-panel ol{
+    list-style-type:disc;
+}
+.profile-intro {
+    border-bottom-style: dotted;
+    border: 0;
+    border-bottom: 3px dotted rgba(38, 78, 68, 1.0);
+}
+
+.profile-intro h3 {
+    color: rgba(117, 86, 39, 1);
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.profile-intro h4 {
+    color: rgba(0, 46, 35, 0.60);
+    font-size: 1.5625rem;
+}
+
+.profile-intro label {
+    color: rgba(38, 78, 68, 0.75);
+    font-size: 1.2rem;
+}
+
+.profile-panel {
+    margin: 8px;
+    border: 0;
+}
+
+.progress {
+    height: 2.5em;
+}
+
+.progress-meter-text {
+    font-size: 2rem;
+}
+
+.tabs {
+    color: #555;
+    background: none;
+    border: 0;
+    margin-top: 5px;
+    /*border-bottom: 1px solid white;*/
+}
+
+.tabs-title {
+    margin-right: 2px;
+}
+
+.tabs-title a {
+    /*  color: #555;*/
+    border-radius: 4px 4px 0 0;
+    font-size: 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected=true], .tabs > .is-active {
+    color: #555 !important;
+    border-radius: 4px 4px 0 0;
+    background: white;
+}
+
+.tabs-title > a:hover {
+    background: #fefefe;
+    color: #555;
+}
+
+.columns {
+    padding: 0px;
+}
+
+.tab-header {
+    color: white;
+    background: rgba(0, 46, 35, 0.5) !important;
+    font-size: 22px;
+    padding: 1em;
+    width: 100%;
+    border-top: 1px solid white;
+    border-bottom: 2px solid #ccc;
+
+}
+
+.tabs-content {
+    border: 0;
+}
+
+#university-connection h1, #shopping-cart h1, #operator-training-page h1 {
+    color: #818181;
+    margin-bottom: 25px;
+}
+
+#university-connection-tabs {
+    width: 95%;
+}
+
+.tabs-panel {
+    padding: 0;
+}
+
+.tabs-panel.is-active {
+    display: block;
+}
+
+#shopping-cart label {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#shopping-cart input {
+    width: auto;
+
+}
+
+input, textarea {
+    border: 1px solid #333;
+    padding: 3px 5px;
+}
+
+input[aria-invalid="true"], textarea[aria-invalid="true"] {
+    border: 1px solid #f00;
+    box-shadow: 0 0 4px 0 #f00;
+}
+
+form p label {
+    display: inline-block;
+    width: 7em;
+}
+
+form p label abbr {
+    border: none;
+    font-weight: bold;
+    color: #f00;
+}
+
+.table-strip-with-border {
+    border-collapse: collapse;
+}
+
+.table-strip-with-border, .table-strip-with-border tr, .table-strip-with-border td {
+    border: 1px solid rgba(0, 46, 35, 0.09);
+}
+
+#info-table td {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#info-name, #info-addrL1, #info-city, #info-state {
+    border-right: 1px solid #ccc;
+}
+
+#shopping-cart-tabs li {
+    margin-left: 15%;
+    margin-bottom: 15px;
+}
+
+.progress {
+    margin-bottom: 0;
+}
+
+#progress-meter-shoppingcart .progress-meter {
+    width: 33%;
+    transition: all 1s ease;
+}
+
+#register-form-panel {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+#cart{
+    margin: 18px;
+    float:right;
+}
+.accordion li a, .accordion-title:focus, .accordion-title:hover {
+    background: rgba(0, 170, 79, 1);
+    color: white;
+}
+
+.accordion li a span {
+    float: right;
+    margin-right: 5%;
+}
+
+#enroll, #manual, #package, .emp-table-header {
+    width: 75px !important;
+}
+
+.register-form-panel .row, .register-form-panel .grid-container {
+
+    background: white !important;
+    margin: 0;
+    padding: 0 !important;
+}
+
+.condition-text {
+    color: #c6671d;
+}
+
+.remove-link {
+    background: none !important;
+    color: #1779ba !important;
+}
+
+label.large-12 input {
+    width: 95% !important;
+}
+
+.switch.small {
+    float: left;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.accordion-content {
+    overflow: hidden;
+}
+
+.table-normal {
+    width: auto;
+}
+
+table tbody td, table tbody th {
+    padding: 2px 5px 2px;
+}
+
+td input, td button, td select {
+    margin: 0 !important;
+}
+
+.close-button {
+    color: white;
+}
+
+#contact-info-submit {
+    padding: 10px;
+    float: right;
+}
+
+#info-table {
+    display: none;
+    transition: 1s all ease;
+}
+
+/*********************/
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.prefix-suffix {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    display: table-cell;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    margin: 0;
+}
+
+.suffix input {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.suffix .input-group-addon {
+    border-left: 0;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.prefix input {
+    border-radius: 0px 4px 4px 0px;
+}
+
+.prefix .input-group-addon {
+    border-right: 0;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.presuffix input {
+    border-radius: 0px;
+}
+
+.input-group-addon.prefix {
+    border-radius: 4px 0px 0px 4px;
+    border-right: 0;
+}
+
+.input-group-addon.suffix {
+    border-radius: 0px 4px 4px 0px;
+    border-left: 0;
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+#updateAdd {
+    padding: 0;
+}
+
+#save-student {
+    margin: 10px;
+}
+
+#student-data, #student-name-type {
+    line-height: 17px;
+    font-size: 15px;
+}
+
+#operator-training-tabs {
+    border-bottom: 1px solid #ddd;
+}
+
+.form-group {
+    margin: 0 !important;
+}
+
+#cart-container {
+    background: rgba(255, 255, 255, 0.25);
+    width: 100px;
+    padding: 1rem;
+    margin-top: -2.25rem;
+}
+
+#cart-container img {
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+#cart-container .popover-content {
+    width: auto;
+}
+
+.search {
+    height: 50px;
+    width: auto;
+    float: right;
+    padding: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.breadcrumbs {
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+    margin-left: -15px;
+    background-color: #f5f5f5;
+    padding: 8px 15px;
+}
+
+.breadcrumbs li {
+    font-size: 14px;
+}
+
+.breadcrumbs > li {
+    display: inline-block;
+}
+
+#operator-training-page .row a {
+    color: rgba(0, 78, 56, 1.0);
+}
+
+
+.plus-minus-input {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.plus-minus-input .input-group-field {
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.2rem;
+    width: 75px;
+    -moz-appearance: textfield;
+}
+
+.plus-minus-input .input-group-field::-webkit-inner-spin-button,
+.plus-minus-input .input-group-field ::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.plus-minus-input .input-group-button .circle {
+    border-radius: 50%;
+    padding: 0.25em 0.8em;
+}
+
+.addItemDropdown {
+    width: auto;
+}
+
+.btn-container {
+    /* position:absolute;*/
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+}
+
+#operator-training-tabs {
+    margin-left: 1.25rem;
+}
+
+.lightpanel, .waterpanel, .wastepanel {
+    min-height: 28rem !important;
+}
+
+.waterpanel {
+    background: rgba(0, 114, 120, 0.25);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 2px;
+}
+
+.wastepanel {
+    background: rgba(0, 133, 84, 0.25);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 2px;
+}
+
+.paginate_button {
+    padding: 10px;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oxygen Regular'), local('Oxygen-Regular'), url(https://fonts.gstatic.com/s/oxygen/v7/2sDfZG1Wl4LcnbuKgE0mV0Q.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oxygen Regular'), local('Oxygen-Regular'), url(https://fonts.gstatic.com/s/oxygen/v7/2sDfZG1Wl4LcnbuKjk0m.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+#research-content .row, #stormwater-content .row, #university-connection .row {
+    background: rgba(0, 46, 35, 0.03);/*#e6e6e6;*/
+}
+
+#stormwaterMain {
+    height: 1000px;
+    padding: 0;
+}
+#stormwaterMain h1{
+    color: rgba(38, 78, 68, 1.0);
+}
+#stormwaterMain p{
+    color:rgba(38, 78, 68, 1.0);
+}
+#igpMain, #igpMain .video-foreground, #igpMain .vid-info {
+    height: 905px;
+    padding: 0;
+}
+
+#igpMain .vid-info {
+    width: 22%;
+}
+
+#igpMain .vid-info p {
+    margin-top: 90px;
+    font-size: 19px;
+    padding: 15px;
+    padding-top: 10%;
+
+}
+
+#stormwaterbmpMain {
+    padding-top: 50px;
+    padding-left: 50px;
+    background-color: rgba(1, 87, 60, 0.65);
+    color: #e5eeeb;
+    padding-bottom: 50px;
+}
+
+#stormwatercontant {
+    margin-top: 110px;
+}
+
+#stormwatercontant i {
+    font-size: 150px;
+    padding-right: 15%;
+    transition: 1s ease;
+    color: rgba(240, 225, 176, 0.65);
+}
+
+#stormwatercontant i:hover {
+    padding-right: 5%;
+    color: rgba(240, 225, 176, 1.0);
+}
+
+#featured-item-text {
+    padding-top: 50px;
+    padding-left: 20px;
+    background-color: rgba(1, 87, 60, 0.65);
+    color: #e5eeeb;
+    padding-bottom: 50px;
+}
+
+#LID-text {
+    padding-top: 40px;
+    padding-left: 20px;
+    background-color: rgba(1, 87, 60, 0.65);
+    /*color: #e5eeeb;*/
+    padding-bottom: 50px;
+    font-size: 17px;
+    background:rgba(230, 226, 209, 0.8);
+}
+
+#LID-text p, #LID-text h1{
+    color:rgba(38, 78, 68, 1.0)!important;
+}
+
+#featured-items .research-main-band, #cgp .research-main-band {
+    height: 390px;
+    padding: 0;
+}
+
+#featured-items .research-main-band p, #cgp .research-main-band {
+    text-align: left;
+    min-width: 240px;
+}
+
+#featured-items .overlay p, #cgp .overlay p {
+    color: #e5eeeb;
+    margin-top: 0;
+    font-size: 17px;
+    height: unset;
+    padding-left: 2%;
+
+}
+
+#research-content .tabs-panel h1, #stormwater-content .tabs-panel h1 {
+    color: white;
+}
+
+.video-background {
+
+    z-index: -99;
+}
+
+.video-foreground,
+.video-background iframe,
+.video-background object,
+.video-background embed {
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.vid-info {
+    position: absolute;
+    top: 800px;
+    right: 0;
+    width: 33%;
+    height: 1000px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 1rem;
+    font-family: Avenir, Helvetica, sans-serif;
+}
+
+.vid-info h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 0;
+    line-height: 1.2;
+}
+
+.vid-info a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    transition: .6s background;
+    border-bottom: none;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+#wastewaterMain i {
+    font-size: 150px;
+    padding-right: 30%;
+    transition: 1s ease;
+    color: rgba(255, 225, 255, 0.65);
+}
+
+#wastewaterMain i:hover {
+    padding-right: 20%;
+    color: rgba(255, 225, 255, 1.0);
+}
+
+.tcolalt {
+    background: rgba(66, 80, 76, 0.25);
+}
+
+.spnsrtbl tr td {
+    border-bottom: 1px solid #8D6E2E;
+}
+
+.spnsrtbl tr td {
+    padding: 10px;
+    font-size: 10pt;
+    vertical-align: middle;
+    line-height: 18px;
+    width: 25%;
+}
+
+#staff_pictures {
+    background-image: url('../img/owp_group_kens_bike_2.jpg');
+    background-color: rgba(0, 78, 56, 0.45);
+    background-position: 0 -310px;
+    position: relative;
+    background-blend-mode: luminosity;
+}
+#staff_pictures>div, #staff_pictures_small>div{
+    background-color: rgba(0,0,0,0);
+}
+#staff_pictures i{
+    color: white;
+}
+#software-tools-content p {
+    font-size: 14px;
+}
+
+.spnsrtbl {
+    border-collapse: collapse;
+}
+#staff_pictures_small{
+    display: none;
+}
+.spnsrtbl thead th {
+    padding-left: 10px;
+    background: #8D6E2E;
+    color: #FFF;
+    text-align: left;
+}
+
+.spnsrtbl tfoot td {
+    height: 10px;
+    background: #8D6E2E;
+}
+
+.rightlink {
+    float: right;
+    position: relative;
+}
+
+.lid {
+    background-color: rgba(230, 226, 209, 0.8);
+}
+
+.lid > .columns {
+    background-color: white;
+    color: rgba(38, 78, 68, 1.0);
+    padding-top: 10px; 
+}
+
+.lid h1 {
+    color: rgba(38, 78, 68, 1.0) !important;
+}
+.lid p{
+    padding: 5px;
+    overflow: auto;
+}
+#sm-scrn-navi {
+    z-index: 20;
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 46, 35, 0.85);
+    height: auto;
+    padding: .50em;
+    width: 100%;
+    border-top: 1px solid #FFFFFF;
+}
+
+#sm-scrn-navi ul li {
+    display: inline-block;
+    border: none;
+}
+
+.reverse-link {
+    color: #FFFFFF;
+    font-size: 11px;
+    padding-right: 1em;
+}
+
+.reverse-link:hover, .reverse-link:focus {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+#sm-scrn-navi span{
+    font-weight:700; 
+    color:white;
+}
+#stromwater_admin_search input, #stromwater_admin_search select {
+    width: auto;
+    float: left;
+}
+
+#stromwater_admin_search hr {
+    margin: 0.50rem auto;
+}
+
+#admin_search_btns {
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#stromwater_admin_search .menu > li > a.tab, #stromwater_admin_search .menu > li > a:hover {
+    margin: 0;
+    background-color: white;
+    color: #555;
+    margin-left: 10px;
+}
+
+#stromwater_admin_search .menu > li > a {
+    border-radius: 4px 4px 0 0;
+    margin-left: 10px;
+}
+
+#stromwater_admin_search .menu > li > a {
+    padding: 0.7rem 1rem;
+}
+
+#stromwater_admin_search .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+
+}
+
+#faq .accordion li a, #faq .accordion-title:focus, #faq .accordion-title:hover {
+    background: rgba(0,0,0, 0.10);
+    color: rgba(38, 78, 68, 1.0);
+    margin-bottom:1px;
+}
+
+#faq .row {
+    background: white;
+}
+
+#faq .accordion-title {
+    padding: 10px;
+
+}
+
+.sub-faq-topics.accordion li a {
+    border: 0;
+    text-decoration: underline;
+}
+
+.sub-faq-topics .accordion-content {
+    border: 0;
+}
+
+#faq h1 {
+    color: rgba(38, 78, 68, 1.0) !important;
+}
+
+.faq_topics li em {
+    background: #ff6;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.highlight {
+    background-color: yellow;
+    background: yellow;
+}
+
+.condition-highlight{
+    width: 100%;
+    padding:5px;
+    background-color:  #c6671d;
+    color:white;
+}
+.video iframe{
+    max-width: 600px;
+    min-width: 500px;
+    min-height: 250px;
+    max-height: 338px;
+
+}
+.content-row-block{
+    margin-top:20px; 
+    margin-bottom:20px;
+}
+.content-row-block .columns{
+    float: left;
+}
+#stormwater-content hr{
+    max-width:unset;
+    height:40px;
+}
+.tabs-panel>.columns{
+    background:white;
+}
+.menu-header>a{
+    background: #70BF49;
+    color: white!important;
+    padding:8px;
+    margin:8px;
+    font-size: 17px;
+}
+.menu-header{
+    padding:0px!important;
+}
+body>.row>.columns{
+    background:white;
+}
+.list-nav li{
+    border-bottom:1px solid #e6e6e6;
+}
+.list-nav{
+    width: 80%;
+}
+.item {
+    background-color: rgba(0, 132, 83, 1.0);
+}
+.item a{
+    color: white;
+    padding-left: 5px;
+}
+#software-tool h4{
+    color: rgba(0,100,114,1);
+}
+#software-tool img{
+    height:129px;
+    width:223px;
+}
+#software-tool p{
+    font-size: 14px!important;
+}
+#software-tool hr{
+    max-width: none;
+}
+#software-tool>.columns{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    min-height: 250px;
+}
+#papers{
+    margin-top: 20px;
+}
+#featured-LID{
+    background-image: url('/img/research/owp-large-image-03.jpg');
+}
+#featured-EFC2{
+    background-image: url('/img/research/sac-valley-02.jpg');
+    background-size: 100% 500px;
+    height: 500px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 1.5rem;
+    background-color:rgba(0,78,56,0.65);
+}
+#featured-EFC2 p{
+    padding-left: 5%;
+    min-width: 240px; 
+    margin-top: 80px;
+    font-size: 19px;
+    width: 85%;
+    color: white;
+}
+#featured-EFC2 h1{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+#efc-intro img{
+    height: 140px;
+}
+#efc-intro{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+#efc-intro a{
+    margin: 10px;
+}
+.lid-sub-header{
+    width:45%; 
+    float:left;
+    margin-left:10px;
+    cursor: pointer;
+}
+.light-lid-sub-header{
+    color: rgba(0, 46, 35, 0.5) !important;
+    background: white none repeat scroll 0% 0% !important;
+}
+#press-release a{
+    width:45%;
+    float:left;
+    margin:5px;
+    padding:0.5rem;
+    color:white;
+    min-height:80px;
+    background-color: rgba(0, 132, 83, 1.0);
+}
+#stormwatercontant p{
+    margin-top: 90px;
+    font-size: 19px;
+    color: white;
+}
+#wastewater-text{
+    padding-top: 50px; 
+    padding-left: 50px; 
+    background-color: rgba(1,87,60,0.65); 
+    color: #e5eeeb;
+    padding-bottom: 50px;
+}
+#soils-groundwater-text{
+    padding-top: 50px;
+    padding-left: 20px;
+    background-color: #024830;
+    color: #e5eeeb;
+    padding-bottom: 50px;
+}
+#software-tools-content .columns{
+    padding: 5px;
+}
+#software-tools-content>div{
+    margin-top:80px; 
+    font-size: 15px; 
+    height:367px; 
+    padding-left:1%;
+}
+#staff-research-band{
+    background-image: url('../img/owp_group_kens_bike_2.jpg'); 
+    background-color: rgba(0, 78, 56, 0.45); 
+    background-position: 0 -310px;
+    position: relative; 
+    background-blend-mode: luminosity;
+}
+#staff-research-band>div{
+    background-color: rgba(0,0,0,0);
+}
+#staff-research-band>i{
+    color: white;
+}
+#staff_pictures{
+    display: none;
+}

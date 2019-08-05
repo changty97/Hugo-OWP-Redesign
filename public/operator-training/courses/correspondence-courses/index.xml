@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Correspondence Courses on Office of Water Programs</title>
+    <link>/operator-training/courses/correspondence-courses/</link>
+    <description>Recent content in Correspondence Courses on Office of Water Programs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 May 2019 16:30:35 -0700</lastBuildDate>
+    
+	<atom:link href="/operator-training/courses/correspondence-courses/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Water Treatment Plant Operation, Volume 1</title>
+      <link>/operator-training/courses/correspondence-courses/drinking-water-courses/water-treatment-plant-operation-v1/</link>
+      <pubDate>Tue, 11 Jun 2019 12:18:13 -0700</pubDate>
+      
+      <guid>/operator-training/courses/correspondence-courses/drinking-water-courses/water-treatment-plant-operation-v1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Management Courses</title>
+      <link>/operator-training/courses/correspondence-courses/management-courses/</link>
+      <pubDate>Tue, 14 May 2019 16:45:20 -0700</pubDate>
+      
+      <guid>/operator-training/courses/correspondence-courses/management-courses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wastewater Courses and Manuals</title>
+      <link>/operator-training/courses/correspondence-courses/wastewater-courses/</link>
+      <pubDate>Tue, 14 May 2019 16:45:04 -0700</pubDate>
+      
+      <guid>/operator-training/courses/correspondence-courses/wastewater-courses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drinking Water Courses</title>
+      <link>/operator-training/courses/correspondence-courses/drinking-water-courses/</link>
+      <pubDate>Tue, 14 May 2019 16:44:43 -0700</pubDate>
+      
+      <guid>/operator-training/courses/correspondence-courses/drinking-water-courses/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

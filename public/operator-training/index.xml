@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operator Training Courses on Office of Water Programs</title>
+    <link>/operator-training/</link>
+    <description>Recent content in Operator Training Courses on Office of Water Programs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 May 2019 11:27:38 -0700</lastBuildDate>
+    
+	<atom:link href="/operator-training/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Frequently Asked Questions</title>
+      <link>/operator-training/faq/</link>
+      <pubDate>Tue, 14 May 2019 13:24:16 -0700</pubDate>
+      
+      <guid>/operator-training/faq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Glossary</title>
+      <link>/operator-training/glossary/</link>
+      <pubDate>Tue, 14 May 2019 13:27:53 -0700</pubDate>
+      
+      <guid>/operator-training/glossary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Helpful Links</title>
+      <link>/operator-training/links/</link>
+      <pubDate>Tue, 14 May 2019 13:28:05 -0700</pubDate>
+      
+      <guid>/operator-training/links/</guid>
+      <description>Operator Certification and Training  Association of Boards of Certification (ABC)
+Rural Community Assistance Corporation (RCAC) Training
+U.S. Bureau of Labor Statistics
+Package Tracking  UPS Package Tracking
+FedEx Package Tracking
+Stormwater  California Stormwater Quality Association
+Caltrans Stormwater Management Program
+International Water Association
+Stormwater, the Journal for Surface Water Quality Professionals
+Water Quality  Air &amp;amp; Waste Management Association
+American Public Works Association (APWA)
+American Society of Civil Engineers (ASCE)</description>
+    </item>
+    
+  </channel>
+</rss>

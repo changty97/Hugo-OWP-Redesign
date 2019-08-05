@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stormwater on Office of Water Programs</title>
+    <link>/research/stormwater/</link>
+    <description>Recent content in Stormwater on Office of Water Programs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jun 2019 14:28:34 -0700</lastBuildDate>
+    
+	<atom:link href="/research/stormwater/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NPDES program management assistant</title>
+      <link>/research/stormwater/npdes/</link>
+      <pubDate>Thu, 30 May 2019 13:20:28 -0700</pubDate>
+      
+      <guid>/research/stormwater/npdes/</guid>
+      <description>OWP research staff have provided assistance with guidance development and decision making for various aspects of stormwater management and National Pollutant Discharge Elimination System and Total Maximum Daily Load compliance. Program assistance has included developing guidelines for best management practice (BMP) testing and implementation, suggesting general protocols for stormwater monitoring, creating tools for designing effective best management practices and stormwater management programs, and developing stormwater management plans.</description>
+    </item>
+    
+    <item>
+      <title>Bmp and Runoff assessments</title>
+      <link>/research/stormwater/bmp-and-runoff/</link>
+      <pubDate>Thu, 30 May 2019 13:22:13 -0700</pubDate>
+      
+      <guid>/research/stormwater/bmp-and-runoff/</guid>
+      <description>OWP research staff have provided assistance with multiple aspects related to BMP and runoff assessments, including:
+ Study planning Feasibility studies Runoff discharge characterization BMP verification Monitoring protocols Data evaluation and statistical analysis Toxicity testing  </description>
+    </item>
+    
+    <item>
+      <title>Erosion control evaluations</title>
+      <link>/research/stormwater/erosion/</link>
+      <pubDate>Thu, 30 May 2019 13:22:23 -0700</pubDate>
+      
+      <guid>/research/stormwater/erosion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LID design and implementation</title>
+      <link>/research/stormwater/lid/</link>
+      <pubDate>Thu, 30 May 2019 13:22:32 -0700</pubDate>
+      
+      <guid>/research/stormwater/lid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stormwater funcding and financing</title>
+      <link>/research/stormwater/stormwater/</link>
+      <pubDate>Thu, 30 May 2019 13:24:09 -0700</pubDate>
+      
+      <guid>/research/stormwater/stormwater/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regional Planning</title>
+      <link>/research/stormwater/regional-planning/</link>
+      <pubDate>Thu, 30 May 2019 13:25:02 -0700</pubDate>
+      
+      <guid>/research/stormwater/regional-planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Training</title>
+      <link>/research/stormwater/training/</link>
+      <pubDate>Thu, 30 May 2019 13:25:11 -0700</pubDate>
+      
+      <guid>/research/stormwater/training/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

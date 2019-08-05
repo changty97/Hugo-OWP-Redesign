@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Small Water System</title>
+
+	<link rel="icon" href="../css/favicon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" href="/css/foundation.css" type="text/css">
+	<link rel="stylesheet" href="/css/foundation.min.css" type="text/css">
+	<link rel="stylesheet" href="/css/font-awesome.css" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/custom2.css" type="text/css">
+	<link rel="stylesheet" href="/css/custom-media.css" type="text/css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300, 500, 700|Lato:400, 700|Montserrat:400, 700">
+	<link rel="stylesheet" type="text/css" href="/slick-1.4.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="/slick-1.4.1/slick/slick-theme.css"/>
+
+	<script type="text/javascript" src="/js/jquery.js"></script>
+	<script type="text/javascript" src="/js/foundation.core.js"></script>
+	<script type="text/javascript" src="/js/foundation.min.js"></script>
+	<script type="text/javascript" src="/js/foundation.js"></script>
+	<script type="text/javascript" src="/slick-1.4.1/slick/slick.js"></script>
+	<script type="text/javascript" src="/js/custom.js"></script>
+
+</head>
+<body>
+	<div class="row">
+		<div class="columns small-12">
+			<div class="sac-logo">
+				<img src="/img/icons/logo-horizontal.png">
+			</div>
+		</div>
+	</div>
+	<div id="water-program">
+		<span id="menu">
+			<span onclick="openNav()"> &#9776; Menu</span>
+		</span>
+		<span class="owp-logo"><img src="/svg/icons/OWP-Short-SacState-Logo-White.svg" width="325"
+			height="48" alt="Water Programs at Sac State logo">
+		</span>
+		<span id="userLogin">
+			
+		</span>
+		<span id="cart">
+			
+		</span>
+	</div>
+	<div class="wrapper">
+
+		<div id="side-nav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<ul class="menu" data-drilldown id="m1">
+				<li></li>
+				<li></li>
+				<li><a href="/"><i class="fa fa-home"></i> Home</a></li>
+				<li>
+					<a href="#">Operator Training</a>
+					<ul class="menu">
+						<li class="menu-header">
+							<a href="/operator-training/">
+								Operator Training
+							</a>
+						</li>
+						<li><a href="/operator-training/courses/correspondence-courses/drinking-water-courses/">Drinking Water Courses</a></li>
+						<li><a href="/operator-training/courses/correspondence-courses/wastewater-courses/">Wastewater Courses</a></li>
+						<li><a href="/operator-training/courses/correspondence-courses/management-courses/">Management Courses</a></li>
+						<li><a href="/operator-training/courses/online-courses/">Online Courses</a></li>
+						<li><a href="/operator-training/courses/math-courses/">Math Courses</a></li>
+						<li><a href="/operator-training/courses/specialist-courses/water-treatment-specialist/">Water Treatment Specialist</a></li>
+						<li><a href="/operator-training/courses/specialist-courses/wastewater-treatment-specialist/">Wastewater Treatment Specialist</a></li>
+						<li><a href="/operator-training/faq/">FAQ</a></li>
+						<li><a href="/operator-training/glossary/">Glossary</a></li>
+						<li><a href="/operator-training/links/">Links</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Research</a>
+					<ul class="menu">
+						<li class="menu-header">
+							<a href="/research/">
+								Research						
+							</a>
+						</li>
+						<li><a href="/research/featured-items/">Featured Items</a></li>
+						<li><a href="/research/stormwater/">Stormwater</a></li>
+						<li><a href="/research/wastewater/">Wastewater</a></li>
+						<li><a href="/research/soils-and-groundwater/">Soils & Groundwater</a></li>
+						<li><a href="/research/software-tools/">Software Tools</a></li>
+						<li><a href="/research/reports/stormwater/bmp/">Paper, Reports & Presentations</a></li>
+						<li><a href="/research/staff/">Staff</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Stormwater Training</a>
+					<ul class="menu">
+						<li class="menu-header">
+							<a href="/stormwater-training/">
+								Stormwater Training
+							</a>
+						</li>
+						<li><a href="/stormwater-training/cgp/">Construction General Permit</a></li>
+						<li><a href="/stormwater-training/igp/">Industrial General Permit</a></li>
+						<li><a href="/stormwater-training/bmp/">Stormwater BMP Courses</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Upcoming Events</a>
+					<ul class="menu">
+						<li class="menu-header">
+							<a href="/upcoming-events/" >
+								Upcoming Events
+							</a>
+						</li>						
+						<li><a href="/upcoming-events/water-seminars/">Water Seminar Series</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">University Connection</a>
+					<ul class="menu">
+						<li class="menu-header">
+							<a href="/university-connection/">
+								University Connection
+							</a>
+						</li>
+						<li><a href="/university-connection/owp-fellowship/">OWP Fellowship</a></li>
+						<li><a href="/university-connection/srcsd-sasd-fellowship/">SRCSD-SASD-Fellowship</a></li>
+						<li><a href="/university-connection/student-assistants/">Student Assistants</a></li>
+						<li><a href="/university-connection/teaching/">Teaching</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">
+						<div class="efclogo">
+							<img src="/img/efc-sac-state-3-color.png">
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<center>
+			<div id="main">
+
+
+
+
+<section>
+	<div class="content">
+		<form id="research-content">
+			<div class="row">
+				<div class="large-12 columns">
+					<div id="notification-update-panel"></div>
+					
+                    <section>
+	<div class="top-bar" id="research-menu">
+		<div class="top-bar-left">
+			<center>
+				<ul class="tabs" data-deep-link="true" data-deep-link-smudge="true"
+				data-deep-link-smudge-delay="600" id="research-tabs" data-options="deep_linking:true">
+				<li class='tabs-title' >
+					<a
+					
+					href="/operator-training/courses/correspondence-courses/drinking-water-courses">
+					Drinking Water Courses
+				</a>
+			</li>
+			<li class='tabs-title'>
+				<a href="/operator-training/courses/correspondence-courses/wastewater-courses"
+				>
+				Wastewater Courses
+			</a>
+		</li>
+		<li class='tabs-title'>
+			<a href="/operator-training/courses/correspondence-courses/management-courses"
+			>
+			Management Courses
+		</a>
+	</li>
+	<li class='tabs-title'>
+		<a href="/operator-training/courses/specialist-courses/water-treatment-specialist/"
+		> 
+		Water Treatment Specialist
+	</a>
+</li>
+<li class='tabs-title'>
+		<a href="/operator-training/courses/specialist-courses/wastewater-treatment-specialist/"
+		> 
+		Wastewater Treatment Specialist
+	</a>
+</li>
+<li class='tabs-title'>
+	<a href="/operator-training/courses/online-courses/"
+	
+	aria-selected="true"	
+	> 
+	Online Courses
+</a>
+</li>
+<li class='tabs-title'>
+	<a href="/operator-training/courses/math-courses/"
+	> 
+	Math Courses
+</a>
+</li>
+</ul>
+</center>
+</div>
+</div>
+</section>
+                    
+                    <div class="tabs-content" data-tabs-content="research-tabs" id="panel">
+
+                        
+                        
+                        
+                        
+
+                        
+                        <h4 class="tab-header" style="background: rgba(0,114,120,1.0);">Small Water System</h4>
+                        <div class="columns large-12">
+                            <div class="columns large-8 medium-10 small-10 large-offset-2 medium-offset-1 small-offset-1">
+                                <p>Online courses feature guided reading assignments, self-assessment questions to help students check their understanding, interactive exercises, video clips, and online resources. The related training manual, â€œSmall Water System Operation and Maintenance,â€ is sold separately.</p>
+
+<p>Attention Texas and Washington operators:
+Your states require your exams to be proctored and that an affidavit be signed by your proctor. After purchase, you will receive proctoring instructions.</p>
+
+                            </div>
+                        </div>
+                        
+                        
+<div class="columns large-3 medium-6">
+	<div class="thumbnail" id="wtpo1">
+		<img src="/img/courses/med/702a.png">
+		<hr>
+		<div class="thumnail-panel">
+			<p>
+				<strong>	
+					Small Water System: Wells  (702A)
+				</strong>
+			</p>
+			<p> 
+				This course teaches operators how to set up a wellhead protection program, identify parts of a well and pump system, maintain and rehabilitate a well, and operate and maintain a well pump and hydro-pneumatic pressure tank. Operators will learn how to inspect, keep accurate records, and troubleshoot problems in wells and pumping systems. This course also presents information on disinfecting wells and pumps, and removing sand from water mains. In addition, this course describes types of wells and drilling methods, and will teach operators how to select a well site, test and evaluate a well and pump, and abandon and plug a well that is no longer productive or needed.
+			</p>
+			
+			<p>1.8 CEUs (18 contact hours)<br>
+				<b>6th Edition</b><br>
+				
+				<b>Course Enrollment : $100 USD</b><br>
+						
+				
+			</p>
+		</div>
+		<div class="btn-container">
+			
+			
+		</div>
+	</div>
+</div>
+
+<div class="columns large-3 medium-6">
+	<div class="thumbnail" id="wtpo1">
+		<img src="/img/courses/med/702b.png">
+		<hr>
+		<div class="thumnail-panel">
+			<p>
+				<strong>	
+					Small Water System: Treatment Plants  (702B)
+				</strong>
+			</p>
+			<p> 
+				This course teaches operators about treatment requirements and methods for surface water and groundwater; the coagulation, flocculation, sedimentation, filtration, and disinfection treatment processes for a surface water treatment plant; and how to create a corrosion control program to protect treatment and distribution infrastructure. Operators will also learn about solids-contact clarification and slow sand filter systems; iron and manganese removal and water softening processes to treat groundwater; and setting up effective maintenance and safety programs for a small water system.
+			</p>
+			
+			<p>1.8 CEUs (18 contact hours)<br>
+				<b>6th Edition</b><br>
+				
+				<b>Course Enrollment : $100 USD</b><br>
+						
+				
+			</p>
+		</div>
+		<div class="btn-container">
+			
+			
+		</div>
+	</div>
+</div>
+
+<div class="columns large-3 medium-6">
+	<div class="thumbnail" id="wtpo1">
+		<img src="/img/courses/med/702b.png">
+		<hr>
+		<div class="thumnail-panel">
+			<p>
+				<strong>	
+					Small Water System: Treatment Plants  (702B)
+				</strong>
+			</p>
+			<p> 
+				This course teaches operators about treatment requirements and methods for surface water and groundwater; the coagulation, flocculation, sedimentation, filtration, and disinfection treatment processes for a surface water treatment plant; and how to create a corrosion control program to protect treatment and distribution infrastructure. Operators will also learn about solids-contact clarification and slow sand filter systems; iron and manganese removal and water softening processes to treat groundwater; and setting up effective maintenance and safety programs for a small water system.
+			</p>
+			
+			<p>1.8 CEUs (18 contact hours)<br>
+				<b>6th Edition</b><br>
+				
+				<b>Course Enrollment : $100 USD</b><br>
+						
+				
+			</p>
+		</div>
+		<div class="btn-container">
+			
+			
+		</div>
+	</div>
+</div>
+
+<div class="columns large-3 medium-6">
+	<div class="thumbnail" id="wtpo1">
+		<img src="/img/courses/med/702b.png">
+		<hr>
+		<div class="thumnail-panel">
+			<p>
+				<strong>	
+					Small Water System: Treatment Plants  (702B)
+				</strong>
+			</p>
+			<p> 
+				This course teaches operators about treatment requirements and methods for surface water and groundwater; the coagulation, flocculation, sedimentation, filtration, and disinfection treatment processes for a surface water treatment plant; and how to create a corrosion control program to protect treatment and distribution infrastructure. Operators will also learn about solids-contact clarification and slow sand filter systems; iron and manganese removal and water softening processes to treat groundwater; and setting up effective maintenance and safety programs for a small water system.
+			</p>
+			
+			<p>1.8 CEUs (18 contact hours)<br>
+				<b>6th Edition</b><br>
+				
+				<b>Course Enrollment : $100 USD</b><br>
+						
+				
+			</p>
+		</div>
+		<div class="btn-container">
+			
+			
+		</div>
+	</div>
+</div>
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script>
+        var glossaryList;
+        $('#keywordSearch').on('keyup', function () {
+            var searchTerm = $.trim($(this).val());
+
+        
+        var regEx = new RegExp($.map(searchTerm.split(' '), function (v) {
+            return '(?=.*?' + v + ')';
+        }).join(''), 'i');
+
+        
+        $('.accordion-content').hide().filter(function () {
+
+            return regEx.exec($(this).text());
+        }).show();
+
+        $('.accordion-content').unhighlight();
+        
+        if (searchTerm) {
+            $('.accordion-content').highlight(searchTerm);
+        }
+    });
+
+        $(document).ready(function () {
+            getRandomList();
+        });
+
+
+        var tabs = Array.from(document.getElementsByClassName('tabs-title'));
+        tabs.forEach(function (t) {
+            var id = t.id;
+        });
+        function selectedTab(id) {
+            tabs.forEach(function (t) {
+                t.classList.toggle('./', t.id === id);
+            });
+        }
+
+        window.addEventListener('popstate', function (e) {
+            href = window.location.href;
+            var start = href.lastIndexOf("/");
+            var end = href.lastIndexOf(".php");
+            id = href.substring(start + 1, end);
+            openbackTab(id);
+        });
+        function openbackTab(id) {
+            $(".tabs-panel").css("display", "none");
+            $(".tabs-panel").removeClass("is-active");
+            $(".tabs-title a").attr("aria-selected", "false");
+            $("#" + id + "-title").attr("aria-selected", "true");
+            document.getElementById(id).style.display = 'block';
+            document.getElementById(id).classList.add("is-active");
+
+        }
+
+
+        function openTab(id) {
+            $(".tabs-panel").css("display", "none");
+            $(".tabs-panel").removeClass("is-active");
+            $(".tabs-title a").attr("aria-selected", "false");
+            $("#" + id + "-title").attr("aria-selected", "true");
+            document.getElementById(id).style.display = 'block';
+            document.getElementById(id).classList.add("is-active");
+            newurl = id + '.php';
+            history.pushState(id, 'Selected: ${id}', './' + newurl);
+            selectedTab(id);
+            if (id == 'featured-items') {
+                reset_featured_items();
+            }
+            if (id == 'stormwater') {
+                reset_stormwater_service();
+            }
+        }
+
+        function reset_featured_items() {
+            document.getElementById('featured-EFC2').style.display = "block";
+            var element = document.getElementsByClassName('lid');
+            for (var i = 0; i < element.length; i++) {
+                element[i].style.visibility = "hidden";
+                element[i].style.height = 0;
+                element[i].style.overflow = "hidden";
+            }
+            var header = document.getElementsByClassName('lid-sub-header');
+            for (var i = 0; i < header.length; i++) {
+                header[i].style.color = "white";
+                header[i].style.background = "rgba(0, 46, 35, 0.5)";
+            }
+        }
+
+        function reset_stormwater_service() {
+            var element = document.getElementsByClassName("strm-panel");
+            for (var i = 0; i < element.length; i++) {
+                element[i].style.visibility = "visible";
+                element[i].style.height = "unset";
+                element[i].style.overflow = "unset";
+
+            }
+            element = document.getElementsByClassName("strm");
+            for (var i = 0; i < element.length; i++) {
+                element[i].style.visibility = "hidden";
+                element[i].style.height = 0;
+                element[i].style.overflow = "hidden";
+            }
+        }
+
+        $("#Agenda-and-Presentations-title").click(function () {
+            $("#Agenda-and-Presentations").css("display", 'block');
+            $("#Sponsors").css("display", "none");
+        });
+        $("#Sponsor-title").click(function () {
+            $("#Sponsors").css("display", "block");
+            $("#Agenda-and-Presentations").css("display", 'none');
+        });
+
+    </script>
+</section>
+
+
+
+
+  </div>
+  <div id="sm-scrn-navi">
+
+  	<ul>
+  		<li>
+  			<a href="Prototype2_rich_01.php" class="reverse-link">
+          <span class="">
+            <img src="/svg/icons/home-icon.svg" width="25px" height="25px">
+          </span>
+        </a>
+      </li>
+      <li>
+       <a href="" class="reverse-link">
+        <span style="font-weight:700; color:white;">Operator</span></a>
+      </li>
+      <li>
+
+        <a href="" class="reverse-link">
+         <span style="font-weight:700; color:white;">Stormwater</span></a>
+       </li>
+       <li>
+         <a href="" class="reverse-link">
+          <span style="font-weight:700; color:white;">Research</span></a>
+        </li>
+      </ul>
+
+    </div>
+    <footer style="padding-bottom: 0;">
+      <div class="container">
+
+       <div class="row">
+        <div class="phone-four" id="footercol1">
+
+         <img src="http://www.csus.edu/excellence/assets/img/logo-white.png" class="logo"
+         alt="Sacramento State logo">
+
+       </div>
+       <div id="footercol2" class="phone-four">
+         <div class="contact-details"
+         style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;font-size: 14px;">
+
+         <strong>Office of Water Programs</strong><br>
+         3020 State University Drive<br>
+         Modoc Hall Suit 1001<br>
+         Sacramento, CA 95819<br>
+         Phone: (916) 278-6142<br>
+         Fax: (916) 278-5959<br>
+         Email: wateroffice@owp.csus.edu
+         <br><br>
+         <i class="fa fa-facebook" aria-hidden="true"
+         style="color: white; font-size: 16px; margin-left: 5px;"></i>
+         <i class="fa fa-twitter" aria-hidden="true"
+         style="color: white; font-size: 16px; margin-left: 5px;"></i>
+         <br>
+         <br><br>
+         <iframe
+         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3120.01408385873!2d-121.41973077222168!3d38.55382305924836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809adaebafea273b%3A0xa3db1de1217031ef!2sModoc+Hall%2C+3020+State+University+Dr%2C+Sacramento%2C+CA+95819!5e0!3m2!1sen!2sus!4v1522089104812"
+         width="100%" height="90%" frameborder="0" style="border:0;"
+         allowfullscreen></iframe>
+
+       </div>
+     </div>
+     <div id="footercol3" class="phone-four">
+      <div class="footer-links">
+       <nav>
+        <ul class="nav-links">
+
+         <li>
+          <a href="/about/">About Us</a>
+        </li>
+        <li>
+          <a href="/how-to-reach-us/">Contact Us</a>
+        </li>
+        <li><a href="/privacy/">Privacy Policy</a></li>
+        <li><a href="/return-policy/">Return Policy</a></li>
+        <li>
+          <a href="/careers/">Careers</a>
+        </li>
+        <li>
+          <a href="/operator-training/faq/">FAQ</a>
+        </li>
+
+      </ul>
+
+
+    </nav>
+    <div id="efclogos"><img src="/img/efc-sac-state-wht-1-color.png"/>
+      <ul class="nav-links">
+       <li>
+        <a href="http://www.ecs.csus.edu/">College of Engineering & Computer
+        Science</a>
+      </li>
+      <li>
+        <a href="http://www.ecs.csus.edu/ce/">Department of Civil
+        Engineering</a>
+      </li>
+
+
+    </ul>
+
+  </div>
+</div>
+</div>
+<div id="footercol4" class="phone-four">
+  <div class="footer-links">
+
+   <div id="efclogol"><img src="/img/efc-sac-state-wht-1-color.png"/></div>
+   <br>
+   <ul class="nav-links">
+    <li>
+     <a href="http://www.ecs.csus.edu/">College of Engineering & Computer
+     Science</a>
+   </li>
+   <li>
+     <a href="http://www.ecs.csus.edu/ce/">Department of Civil
+     Engineering</a>
+   </li>
+
+
+ </ul>
+
+</div>
+</div>
+</div>
+
+</div>
+<br>
+</footer>
+
+</center>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stormwater Training on Office of Water Programs</title>
+    <link>/stormwater-training/</link>
+    <description>Recent content in Stormwater Training on Office of Water Programs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 May 2019 15:09:40 -0700</lastBuildDate>
+    
+	<atom:link href="/stormwater-training/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stormwater BMP Courses</title>
+      <link>/stormwater-training/bmp/</link>
+      <pubDate>Tue, 28 May 2019 10:33:32 -0700</pubDate>
+      
+      <guid>/stormwater-training/bmp/</guid>
+      <description>This online course is based on a California Stormwater Quality Association (CASQA) Best Management Practice handbook and is designed to provide continuing education for professional engineers, municipal and regulatory agency employees, developers, construction companies, and others to increase their knowledge of stormwater best management practices.
+Students complete our course using a CASQA BMP handbook and a study guide on CD. The final exam is completed online, allowing for instant grade results.</description>
+    </item>
+    
+    <item>
+      <title>Industrial General Permit</title>
+      <link>/stormwater-training/igp/</link>
+      <pubDate>Tue, 28 May 2019 10:32:39 -0700</pubDate>
+      
+      <guid>/stormwater-training/igp/</guid>
+      <description>Qualified Industrial Storm Water Practitioner  Interested in becoming an Industrial General Permit Qualified Industrial Storm Water Practitioner (QISP)? Follow these steps to complete the process:
+ Sign In or Create Account with OWP
+ Upon login, click ‘Stormwater Certificates’
+ Click ‘IGP QISP’   Complete the online training
+Training consists of videos, quizzes, and reading assignments. You may take the self-assessment quizzes as often as you like. Quiz grades do not affect your completion of the training.</description>
+    </item>
+    
+    <item>
+      <title>Construction General Permit</title>
+      <link>/stormwater-training/cgp/</link>
+      <pubDate>Tue, 28 May 2019 10:23:54 -0700</pubDate>
+      
+      <guid>/stormwater-training/cgp/</guid>
+      <description>QSD and QSP  Interested in becoming a QSD and QSP? Here is what you should know before you begin:
+ You must attend an in-person training before you register for an exam. The registration fee for exams is $125. This covers both the QSP and the QSD exam. If you fail the QSP exam, no certificates will be awarded. If you pass the QSP exam but fail the QSD exam, you will be awarded a QSP certificate.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses on Office of Water Programs</title>
+    <link>/operator-training/courses/</link>
+    <description>Recent content in Courses on Office of Water Programs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 May 2019 16:35:50 -0700</lastBuildDate>
+    
+	<atom:link href="/operator-training/courses/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Operator Math Courses</title>
+      <link>/operator-training/courses/math-courses/</link>
+      <pubDate>Wed, 22 May 2019 16:35:50 -0700</pubDate>
+      
+      <guid>/operator-training/courses/math-courses/</guid>
+      <description>&amp;nbsp;
+Our new online math courses present math that water and wastewater operators use on the job. The courses are delivered in a modular format, so students can customize the learning experience by selecting course topics that fit individual needs. Each course is offered in two formats: continuing education units (CEUs) course and non-CEU course. Our non-CEU courses let students focus on reviewing or learning job-related math concepts without having to take tests for course completion or to earn continuing education units (CEUs).</description>
+    </item>
+    
+  </channel>
+</rss>

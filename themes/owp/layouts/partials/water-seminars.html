@@ -1,0 +1,24 @@
+<section>
+	<div class="content">
+		<form id="upcomingEvents">
+			<div class="row">
+				<div class="large-12 columns">
+					<div class="row">
+						<div class="columns large-7 large-offset-2">
+							<div id="notification-update-panel"></div>
+							<h1> Water Seminar Series </h1>
+							<hr>
+							<p> We look forward to presenting new guest speakers on local and timely water-related topics when we resume our well-received Water Seminar Series during the fall 2019 semester. Check out our past seminar speakers and topics.</p>
+							<hr>
+							<h3> Past Seminars </h3>
+							{{ range .Pages }}
+							{{ .Params.heldAt }} <br>	
+							<a href="{{ .URL }}">{{ .Params.Title }} </a> <br><br>
+							{{ end }}
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</section>

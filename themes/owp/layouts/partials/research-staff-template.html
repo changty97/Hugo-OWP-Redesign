@@ -1,0 +1,28 @@
+<section>
+	<p>
+		OWP research staff expertise includes design, operation, maintenance, and performance testing of treatment BMPs, characterization of stormwater discharges, development and implementation of stormwater monitoring protocols and guidance, and overall stormwater management program assistance.
+	</p>
+
+	<div class="columns large-12" id="staff">
+
+		<h4> Research Team Bios</h4>
+		<br>
+		{{ range  $staff := .Params.research_team_bios }}
+		<div class="columns small-12 medium-6 large-4">
+			<img src="{{ $staff.img }}" alt="{{ $staff.name }}"
+			class="img-circle">
+			<div id="profiledata">
+				<b><a href="{{ $staff.link }}">{{ $staff.name }}</a></b><br>
+				<i>{{ $staff.title }}</i><br>
+			</div>
+		</div>
+		{{ end }}
+
+		<div class="columns large-12">
+			<h4> Student Staff</h4>
+			<p>
+				OWP has a long history of helping to train tomorrow's future engineers and leaders. Students who worked at OWP have gone on to work at the US Army Corps of Engineers, Brown and Caldwell, CH2M Hill, and with other industry leaders. You can see our <a href="/university-connection/student-assistants/"> current student staff</a> at the student assistants page.
+			</p>
+		</div>
+	</div>
+</section>

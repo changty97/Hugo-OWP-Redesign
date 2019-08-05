@@ -1,0 +1,50 @@
+{{ range $course := .Params.courseInfo }}
+<div class="columns large-3 medium-6">
+	<div class="thumbnail" id="wtpo1">
+		<img src="{{ $course.img }}">
+		<hr>
+		<div class="thumnail-panel">
+			<p>
+				<strong>	
+					{{ $course.title | markdownify }}
+				</strong>
+			</p>
+			<p> 
+				{{ $course.desc | markdownify }}
+			</p>
+			
+            <p>{{ if isset $course "ceu" }}
+				{{ $course.ceu | markdownify }}<br>
+				{{ end }}
+				{{ if isset $course "isbn_cd" }}
+				<b>CD-ROM ISBN : {{ $course.isbn_cd | markdownify }}</b><br>
+				{{ end }}
+				{{ if isset $course "edition" }}
+				<b>{{ $course.edition | markdownify }}</b><br>
+				{{ end }}
+				{{ if isset $course "enroll" }}
+				<b>Course Enrollment : {{ $course.enroll | markdownify }}</b><br>
+				{{ end }}
+				{{ if isset $course "manual" }}
+				<b>Manual : {{ $course.manual | markdownify }}</b><br>
+				{{ end }}
+				{{ if isset $course "suppliment" }}
+				<b>{{ $course.suppliment }}</b>
+				{{ end }}
+			</p>
+		</div>
+		<div class="btn-container">
+			{{ if ne $course.detailbtn "" }}
+			<a href="{{ $course.detailbtn | markdownify }}" class="button success" style="background: #006472;">
+				Details
+			</a>
+			{{ end }}
+			{{ if ne $course.cartbtn "/" }}
+			<a href="{{ $course.cartbtn | markdownify }}" class="button success">
+				Add to Cart
+			</a>
+			{{ end }}
+		</div>
+	</div>
+</div>
+{{ end }}

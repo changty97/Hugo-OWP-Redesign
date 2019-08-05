@@ -1,0 +1,173 @@
+<section>
+ <div id="faq">
+    <div class="columns large-12" style="background:white;">
+        <div class="columns large-10 large-offset-1" style="min-height:400px;">
+            <br>
+            <h1>Frequently Asked Questions</h1>
+            <span style="float:left; margin:10px;">Search :</span>
+            <input type="text" id="keywordSearch" placeholder="Search.."
+            style="width:auto;">
+            <ul class="accordion faq_topics" data-accordion data-multi-expand="true"
+            data-allow-all-closed="true" id="faq_topics">
+            <li class="accordion-item" data-accordion-item>
+                <a href="#" class="accordion-title">Course Info</a>
+                <div class="accordion-content" data-tab-content>
+                    <div class="row">
+                        <div class="columns large-10 large-offset-1">
+                            <ul class="accordion sub-faq-topics"
+                            data-accordion
+                            data-multi-expand="true"
+                            data-allow-all-closed="true">
+                            {{ range  $qa := .Params.courseInfo }}
+                            <li class="accordion-item" data-accordion-item>
+                                <a href="#" class="accordion-title">
+                                  {{ $qa.question }}  
+                              </a>
+                              <div class="accordion-content"
+                              data-tab-content>
+                              <div class="columns large-10">
+                                  {{ range $ans := $qa.answer }}
+                                  <p>
+                                    {{ $ans | markdownify }}
+                                </p>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </div>
+</li>
+<li class="accordion-item" data-accordion-item>
+    <a href="#" class="accordion-title">CEUs & Transcripts</a>
+    <div class="accordion-content" data-tab-content>
+        <div class="row">
+            <div class="columns large-10 large-offset-1">
+                <ul class="accordion sub-faq-topics"
+                data-accordion
+                data-multi-expand="true"
+                data-allow-all-closed="true">
+
+                {{ range  $qa := .Params.ceuTranscript }}
+                <li class="accordion-item" data-accordion-item>
+                    <a href="#" class="accordion-title">
+                      {{ $qa.question }}  
+                  </a>
+                  <div class="accordion-content"
+                  data-tab-content>
+                  <div class="columns large-10">
+                      {{ range $ans := $qa.answer }}
+                      <p>
+                        {{ $ans | markdownify }}
+                    </p>                       
+                    {{ end }}
+                </div>
+            </div>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+</div>
+</div>
+</li>
+<li class="accordion-item" data-accordion-item>
+    <a href="#" class="accordion-title">Ordering</a>
+    <div class="accordion-content" data-tab-content>
+        <div class="row">
+            <div class="columns large-10 large-offset-1">
+                <ul class="accordion sub-faq-topics" data-accordion
+                data-multi-expand="true"
+                data-allow-all-closed="true">
+                {{ range  $qa := .Params.ordering }}
+                <li class="accordion-item" data-accordion-item>
+                    <a href="#" class="accordion-title">
+                      {{ $qa.question }}  
+                  </a>
+                  <div class="accordion-content"
+                  data-tab-content>
+                  <div class="columns large-10">
+                      {{ range $ans := $qa.answer }}
+                      <p>
+                        {{ $ans | markdownify }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div>
+        </li>
+        {{ end }}
+
+    </ul>
+</div>
+</div>
+</div>
+</li>
+<li class="accordion-item" data-accordion-item>
+    <a href="#" class="accordion-title">Shipping</a>
+    <div class="accordion-content" data-tab-content>
+        <div class="row">
+            <div class="columns large-10 large-offset-1">
+                <ul class="accordion sub-faq-topics"
+                data-accordion
+                data-multi-expand="true"
+                data-allow-all-closed="true">
+                {{ range  $qa := .Params.shipping }}
+                <li class="accordion-item" data-accordion-item>
+                    <a href="#" class="accordion-title">
+                      {{ $qa.question }}  
+                  </a>
+                  <div class="accordion-content"
+                  data-tab-content>
+                  <div class="columns large-10">
+                      {{ range $ans := $qa.answer }}
+                      <p>
+                        {{ $ans | markdownify }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+</div>
+</div>
+</li>
+<li class="accordion-item" data-accordion-item>
+    <a href="#" class="accordion-title">Self-Help Center Account
+    Management</a>
+    <div class="accordion-content" data-tab-content>
+        <div class="row">
+            <div class="columns large-10 large-offset-1">
+                <ul class="accordion sub-faq-topics"
+                data-accordion
+                data-multi-expand="true"
+                data-allow-all-closed="true">
+                {{ range  $qa := .Params.selfHelp }}
+                <li class="accordion-item" data-accordion-item>
+                    <a href="#" class="accordion-title">
+                      {{ $qa.question }}  
+                  </a>
+                  <div class="accordion-content"
+                  data-tab-content>
+                  <div class="columns large-10">
+                      {{ range $ans := $qa.answer }}
+                      <p>
+                        {{ $ans | markdownify }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>

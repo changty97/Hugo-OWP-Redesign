@@ -1,0 +1,23 @@
+<section>
+	<div class="content">
+		<form id="research-content">
+			<div class="row">
+				<div class="large-12 columns">
+					<div id="notification-update-panel"></div>
+					{{ partial "operator-courses-tab.html" . }}
+					<div class="tabs-content" data-tabs-content="research-tabs" id="panel">
+						<h4 class="tab-header" style="background: rgba(0,114,120,1.0);">{{ .Params.title }}</h4>
+						<div class="columns large-12">
+
+							<div class="columns large-8 medium-10 small-10 large-offset-2 medium-offset-1 small-offset-1">
+								
+								{{ .Content }}
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</section>

@@ -1,0 +1,88 @@
+<section>
+	<div class="content">
+		<form id="research-content">
+			<div class="row">
+				<div class="large-12 columns">
+					<div id="notification-update-panel"></div>
+					{{ partial "research-tabs.html" . }}
+					<div class="tabs-content" data-tabs-content="research-tabs" id="panel">
+						<div class="tabs-panel is-active" id="operator-training">
+							<div class="columns large-12">
+								{{ if eq .Description "research" }}
+								{{ partial "research-home-template.html" . }}
+								{{ end }}
+
+								{{ if eq .Params.Description "staff" }}
+								<div class="register-form-panel columns large-10 large-offset-1">
+									{{ partial "research-staff-template.html" . }}
+								</div>
+								{{ end }}
+
+								{{ if eq .Params.Description "wastewater" }}
+								<div class="register-form-panel columns large-10 large-offset-1">
+									<h2>{{ .Title }}</h2>
+									{{ partial "project-list-template.html" . }}
+								</div>
+								{{ end }}
+
+								{{ if eq .Params.Description "soils and groundwater" }}
+								<div class="register-form-panel columns large-10 large-offset-1">
+									{{ partial "catalog-template.html" . }}
+								</div>
+								{{ end }}
+
+								{{ if eq .Params.Description "stormwater" }}
+								{{ partial "stormwater-research-template.html" . }}
+								{{ end }}
+
+								{{ if eq .Params.Description "software tools" }}
+								<div class="columns large-10  large-offset-1" id="software-tool">
+									<br>
+									{{ range $tool := .Params.tools }}
+									<div class="columns large-12">
+										<h4>{{ $tool.title }}</h4>
+										<div class="columns small-3">
+											<img src="{{ $tool.img }}">
+										</div>
+										<div class="columns small-7">
+											<p>
+												{{ $tool.desc }}
+											</p>
+										</div>
+									</div>
+									<hr>
+									{{ end }}
+								</div>
+								{{ end }}
+
+								{{ if eq .Params.Description "papers" }}
+								<div class="columns large-12" id="papers">
+									<div class="columns small-3">
+										{{ partial "research-paper-menu.html" . }}
+									</div>
+									<div class="toggle columns small-8 large-offset-1">
+										<h5>{{ .Title }}</h5>
+										{{ partial "project-list-template.html" . }}
+									</div>
+								</div>
+								{{ end }}
+
+								{{ if eq .Params.Description "featured-items" }}
+								{{ partial "research-featured-items-template.html" . }}
+								{{ end }}
+								
+								{{ if eq .Params.Description "campus-lid" }}
+								{{ partial "campus-lid.html" . }}
+								{{ .Content | markdownify }}
+								{{ end }}
+								{{ if eq .Params.Description "research-staff" }}
+								{{ partial "research-staff-profile.html" . }}
+								{{ end }}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</section>

@@ -1,0 +1,43 @@
+<section>
+	<div class="top-bar" id="research-menu">
+		<div class="top-bar-left">
+			<center>
+				<ul class="tabs" data-deep-link="true" data-deep-link-smudge="true"
+				data-deep-link-smudge-delay="600" id="research-tabs" data-options="deep_linking:true">
+				<li class='tabs-title' >
+					<a
+					{{if eq .Params.Description "operator-training" }}
+					aria-selected="true"	
+					{{ end }}
+					href="/operator-training/">
+					Operator Training Home
+				</a>
+			</li>
+			<li class='tabs-title'>
+				<a href="/operator-training/faq"
+				{{if eq .Params.Description "faq" }}
+				aria-selected="true"	
+				{{ end }}> FAQ					
+			</a>
+		</li>
+		<li class='tabs-title'>
+			<a href="/operator-training/glossary"
+			{{if eq .Params.Description "glossary" }}
+			aria-selected="true"	
+			{{ end }}
+			> Glossary					
+		</a>
+	</li>
+	<li class='tabs-title'>
+		<a href="/operator-training/links"
+		{{if eq .Params.Description "links" }}
+		aria-selected="true"	
+		{{ end }}
+		> Links
+	</a>
+</li>
+</ul>
+</center>
+</div>
+</div>
+</section>

@@ -1,0 +1,43 @@
+<div id="portfolio" class="row extra">
+	<h3 class="header register-form-header" style=" background: rgba(0, 100, 114, 1.0);"> Most Popular Courses and Manuals</h3>
+	{{ range $course := .Site.Params.courseInfo }}
+	<div class="columns large-3 medium-6">
+		<div class="thumbnail" id="wtpo1">
+			<img src="{{ $course.img }}">
+			<hr>
+			<div class="thumnail-panel">
+				<p>
+					<strong>	
+						{{ $course.title | markdownify }}
+					</strong>
+				</p>
+				<p> 
+					{{ $course.desc | markdownify }}
+				</p>
+
+				<p>{{ $course.ceu | markdownify }}<br>
+					<b>{{ $course.edition | markdownify }}</b><br>
+					{{ if ne $course.enroll ""}}
+					<b>Course Enrollment : {{ $course.enroll | markdownify }}</b><br>
+					{{ end }}		
+					{{ if ne $course.manual "" }}
+					<b>Manual : {{ $course.manual | markdownify }}</b>
+					{{ end }}
+				</p>
+			</div>
+			<div class="btn-container">
+				{{ if ne $course.detailbtn "" }}
+				<a href="{{ $course.detailbtn | markdownify }}" class="button success" style="background: #006472;">
+					Details
+				</a>
+				{{ end }}
+				{{ if ne $course.cartbtn "/" }}
+				<a href="{{ $course.cartbtn | markdownify }}" class="button success">
+					Add to Cart
+				</a>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+	{{ end }}
+</div>

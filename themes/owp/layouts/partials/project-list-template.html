@@ -1,0 +1,16 @@
+<dl>
+	{{ range  $project := .Params.project_list }}
+	<dt id="caltrans-stormwater-program-assistance">
+		{{ $project.title | markdownify }}
+	</dt>
+	<dd>
+		{{ $project.desc | markdownify }} <br><br>
+		{{ if ne $project.contact "" }}
+		Contact: <a href="{{ $project.link }}">{{ $project.contact }}</a><br><br>
+		{{ end }}
+		{{ if ne $project.presentation_link "" }}
+		{{ $project.presentation_link }}
+		{{ end }}
+	</dd>
+	{{ end }}
+</dl>

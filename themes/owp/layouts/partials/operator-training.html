@@ -1,0 +1,121 @@
+<section>
+	<div class="content">
+		<form id="research-content">
+			<div class="row">
+				<div class="large-12 columns">
+					
+					<div id="notification-update-panel"></div>
+                    {{ partial "operator-training-tabs.html" . }}
+                    <div class="tabs-content" data-tabs-content="research-tabs" id="panel">
+                     <div class="tabs-panel is-active" id="operator-training">
+                       <div class="columns large-12">
+                        <div class="columns large-10 large-offset-1" id="operator-intro">
+
+                        <div class="columns large-4" id="operator-top-img">
+                            <img src="/img/OWP-Valley-Springs37.jpg" width="521" height="364">
+                        </div>
+                        <div class="columns large-7 large-offset-1">
+                            <h2>{{ .Title }}</h2>
+                            <p> The Office of Water Programs (OWP) is a nonprofit organization operating under University Enterprises, Inc., California State University, Sacramento, to provide distance learning training programs for individuals interested in the operation and maintenance of drinking water and wastewater facilities. Our training programs are developed and updated in collaboration with experienced industry professionals who have extensive knowledge of how to successfully operate and maintain all types of facilities. The university, fully accredited by the Western Association of Schools and Colleges, administers and monitors these training programs, under the direction of <a href="#">Dr. Ramzi J. Mahmood</a> </p>
+                        </div>
+
+                    </div>
+                    <div class="columns large-12" id="operator-courses-buttons">
+                        <div class="columns large-5 large-offset-1">
+                            <h3>Correspondence Courses and Manuals</h3>
+                            <hr>
+                            <div class="columns large-12" id="correspondence-course">
+                                <div class="columns large-4 medium-4">
+                                    <center>
+                                        <img src="/img/wtpo1.jpg">
+                                        <a href="{{ .Permalink }}courses/correspondence-courses/drinking-water-courses">
+                                            <h4 style="background-color: #006472;">
+                                                Drinking Water
+                                            </h4>
+                                        </a>
+                                    </center>
+                                </div>
+                                <div class="columns large-4 medium-4">
+                                    <center>
+                                        <img src="/img/owtp1.jpg">
+                                        <a href="{{ .Permalink }}courses/correspondence-courses/wastewater-courses">
+                                            <h4 style="background-color: rgba(0,132,83,1.0);">
+                                             Wastewater
+                                         </h4>
+                                     </a>
+                                 </center>
+                             </div>
+                             <div class="columns large-6 medium-6">
+                                <center>
+                                    <img src="/img/mfs.jpg">
+                                    <a href="{{ .Permalink }}courses/correspondence-courses/management-courses">
+                                        <h4 style="background-color: rgba(207,182,104,1.0);">
+                                         Management
+                                     </h4>
+                                 </a>
+                             </center>
+                         </div>
+                     </div>
+                     <p> If you are purchasing an enrollment, you must use the most recent edition of the manual, CD, or video that accompanies that course. Courses that have been successfully completed may only be repeated when a revised edition becomes available. See Current Editions. Be sure to also check the course completion time limits. Manuals, CDs, and videos may also be purchased without enrollments. </p>
+                 </div>
+                 <div class="columns large-5" style="margin-left: 2%;">
+                    <h3>Online Courses</h3>
+                    <hr>
+                    <p>
+                        The Office of Water Programs offers <a href="online-courses.php">online courses</a> designed for operators wishing to satisfy continuing education requirements to renew their licenses. Students finishing each course will receive Continuing Education Units (CEUs) based on the number of contact hours. Be sure to also check the course completion time limits.
+                    </p>
+                    <div class="columns large-12">
+                        <div class="columns large-12 medium-4">
+                            <div id="newsrelease" class="online-course-btn">
+                                <a href="{{ .Permalink }}courses/online-courses/">
+                                    <h4>Drinking Water Online Courses</h4></a>
+                                </div>
+                            </div>
+
+                            <div class="columns large-12 medium-4">        
+
+                                <div id="university" class="online-course-btn">
+                                    <a href="{{ .Permalink }}courses/online-courses/">
+                                        <h4>Wastewater Online Courses</h4>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="columns large-12 medium-4">
+
+                                <div id="stormwater-online-btn" class="online-course-btn">
+                                    <a href="{{ .Permalink }}courses/online-courses/">
+                                        <h4>Stormwater Online Courses</h4>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="columns large-12" id="specialist-certificate">
+                    <div class="columns large-8 large-offset-2">
+                        <h3>Specialist Certificate Programs</h3>
+                        <p> Two separate Treatment Plant Operation Specialist Certificates offer operators an opportunity to earn a Certificate of Academic Achievement and academic credit by completing a series of three courses. Specialist Certificates are offered in two different concentrations:
+                        </p>
+                        <br>
+                        <div class="columns large-12">
+                            <a id="history" href="{{ .Permalink }}courses/specialist-courses/water-treatment-specialist" class="button"> 
+                                Water Treatment Specialist Certificate Program
+                            </a>
+                            <a id="eventspre" href="{{ .Permalink }}courses/specialist-courses/wastewater-treatment-specialist" class="button"> 
+                                Wastewater Treatment Specialist Certificate Program
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+</form>
+</div>
+</section>

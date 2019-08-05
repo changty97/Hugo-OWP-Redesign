@@ -1,0 +1,68 @@
+<section>
+	<div class="top-bar" id="research-menu">
+		<div class="top-bar-left">
+			<center>
+				<ul class="tabs" data-deep-link="true" data-deep-link-smudge="true"
+				data-deep-link-smudge-delay="600" id="research-tabs" data-options="deep_linking:true">
+				<li class='tabs-title' >
+					<a
+					{{if eq .Params.courseType "Drinking Water Courses" }}
+					aria-selected="true"	
+					{{ end }}
+					href="/operator-training/courses/correspondence-courses/drinking-water-courses">
+					Drinking Water Courses
+				</a>
+			</li>
+			<li class='tabs-title'>
+				<a href="/operator-training/courses/correspondence-courses/wastewater-courses"
+				{{if eq .Params.courseType "Wastewater Courses and Manuals" }}
+				aria-selected="true"	
+				{{ end }}>
+				Wastewater Courses
+			</a>
+		</li>
+		<li class='tabs-title'>
+			<a href="/operator-training/courses/correspondence-courses/management-courses"
+			{{if eq .Params.courseType "Management Courses" }}
+			aria-selected="true"	
+			{{ end }}>
+			Management Courses
+		</a>
+	</li>
+	<li class='tabs-title'>
+		<a href="/operator-training/courses/specialist-courses/water-treatment-specialist/"
+		{{if eq .Params.courseType "Water Treatment Plant Operation Specialist Certificate Program" }}
+		aria-selected="true"	
+		{{ end }}> 
+		Water Treatment Specialist
+	</a>
+</li>
+<li class='tabs-title'>
+		<a href="/operator-training/courses/specialist-courses/wastewater-treatment-specialist/"
+		{{if eq .Params.courseType "Wastewater Treatment Plant Operation Specialist Certificate Program" }}
+		aria-selected="true"	
+		{{ end }}> 
+		Wastewater Treatment Specialist
+	</a>
+</li>
+<li class='tabs-title'>
+	<a href="/operator-training/courses/online-courses/"
+	{{if or (eq .Params.Description "online course") (eq .Params.courseType "online course") }}
+	aria-selected="true"	
+	{{ end }}> 
+	Online Courses
+</a>
+</li>
+<li class='tabs-title'>
+	<a href="/operator-training/courses/math-courses/"
+	{{if eq .Params.courseType "math course" }}
+	aria-selected="true"	
+	{{ end }}> 
+	Math Courses
+</a>
+</li>
+</ul>
+</center>
+</div>
+</div>
+</section>

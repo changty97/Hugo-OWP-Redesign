@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+{{ if eq .Section "research" }}
+{{ partial "research-template.html" . }}
+{{ end }}
+{{ if eq .Section "stormwater-training" }}
+{{ partial "stormwater-training-template.html" . }}
+{{ end }}
+
+{{ if eq .Section "upcoming-events" }}
+{{ if eq .Params.Description "past events" }}
+{{ partial "water-seminars.html" . }}
+{{ else }}
+{{ partial "upcoming-events.html" . }}
+{{ end }}
+{{ end }}
+
+{{ if eq .Section "operator-training" }}
+{{ if eq .Params.Description "online course" }}
+{{ partial "online-course.html" . }}
+{{ else }}
+{{ partial "operator-training.html" . }}
+{{ end }}
+{{ end }}
+
+{{ if eq .Section "university-connection" }}
+{{ partial "university-connection.html" . }}
+{{ end }}
+
+{{ partial "footer.html" . }}

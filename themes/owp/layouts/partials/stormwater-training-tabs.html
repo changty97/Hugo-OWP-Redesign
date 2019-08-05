@@ -1,0 +1,44 @@
+<section>
+	<div class="top-bar" id="research-menu">
+		<div class="top-bar-left">
+
+			<center>
+				<ul class="tabs" data-deep-link="true" data-deep-link-smudge="true"
+				data-deep-link-smudge-delay="600" id="research-tabs" data-options="deep_linking:true">
+				<li class='tabs-title' >
+					<a
+					{{ if eq .Params.Description "stormwater-training" }}
+					aria-selected="true"	
+					{{ end }}
+					href="/stormwater-training/">
+					Stormwater Training Home
+				</a>
+			</li>
+			<li class='tabs-title'>
+				<a href="/stormwater-training/cgp"
+				{{ if eq .Params.Description "cgp" }}
+				aria-selected="true"	
+				{{ end }}> Construction General Permit					
+			</a>
+		</li>
+		<li class='tabs-title'>
+			<a href="/stormwater-training/igp"
+			{{ if eq .Params.Description "igp" }}
+			aria-selected="true"	
+			{{ end }}
+			> Industrial General Permit
+		</a>
+	</li>
+	<li class='tabs-title'>
+		<a href="/stormwater-training/bmp"
+		{{ if eq .Params.Description "bmp" }}
+		aria-selected="true"	
+		{{ end }}> Stormwater BMP Courses
+	</a>
+</li>
+
+</ul>
+</center>
+</div>
+</div>
+</section>

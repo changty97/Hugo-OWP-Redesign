@@ -1,0 +1,254 @@
+  </div>
+  <div id="sm-scrn-navi">
+
+  	<ul>
+  		<li>
+  			<a href="Prototype2_rich_01.php" class="reverse-link">
+          <span class="">
+            <img src="/svg/icons/home-icon.svg" width="25px" height="25px">
+          </span>
+        </a>
+      </li>
+      <li>
+       <a href="" class="reverse-link">
+        <span style="font-weight:700; color:white;">Operator</span></a>
+      </li>
+      <li>
+
+        <a href="" class="reverse-link">
+         <span style="font-weight:700; color:white;">Stormwater</span></a>
+       </li>
+       <li>
+         <a href="" class="reverse-link">
+          <span style="font-weight:700; color:white;">Research</span></a>
+        </li>
+      </ul>
+
+    </div>
+    <footer style="padding-bottom: 0;">
+      <div class="container">
+
+       <div class="row">
+        <div class="phone-four" id="footercol1">
+            <img src="/img/icons/SacState-whitelogo.png" class="logo" alt="Sacramento State logo">
+       </div>
+       <div id="footercol2" class="phone-four">
+         <div class="contact-details"
+         style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;font-size: 14px;">
+
+         <strong>Office of Water Programs</strong><br>
+         3020 State University Drive<br>
+         Modoc Hall Suit 1001<br>
+         Sacramento, CA 95819<br>
+         Phone: (916) 278-6142<br>
+         Fax: (916) 278-5959<br>
+         Email: <a href="mailto:wateroffice@owp.csus.edu">wateroffice@owp.csus.edu</a>
+         <p>
+         <a href="https://www.facebook.com/OfficeofWaterPrograms" target="_blank" rel="noopener">
+            <i class="fab fa-facebook-f" aria-hidden="true" style="color: white; font-size: 16px; margin-left: 5px;"></i></a> 
+         <a href="https://twitter.com/waterprograms" target="_blank" rel="noopener">
+            <i class="fab fa-twitter" aria-hidden="true" style="color: white; font-size: 16px; margin-left: 5px;"></i></a> 
+         <a href="https://www.linkedin.com/company/office-of-water-programs" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin-in" aria-hidden="true" style="color: white; font-size: 16px; margin-left: 5px;"></i>
+         </a></p>
+         <!--
+         <br>
+         <br><br>
+         <iframe
+         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3120.01408385873!2d-121.41973077222168!3d38.55382305924836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809adaebafea273b%3A0xa3db1de1217031ef!2sModoc+Hall%2C+3020+State+University+Dr%2C+Sacramento%2C+CA+95819!5e0!3m2!1sen!2sus!4v1522089104812"
+         width="100%" height="90%" frameborder="0" style="border:0;"
+         allowfullscreen></iframe>
+         -->
+
+       </div>
+     </div>
+     <div id="footercol3" class="phone-four">
+      <div class="footer-links">
+       <nav>
+        <ul class="nav-links">
+
+         <li>
+          <a href="/about/">About Us</a>
+        </li>
+        <li>
+          <a href="/how-to-reach-us/">Contact Us</a>
+        </li>
+        <li><a href="/privacy/">Privacy Policy</a></li>
+        <li><a href="/return-policy/">Return Policy</a></li>
+        <li>
+          <a href="/careers/">Careers</a>
+        </li>
+        <li>
+          <a href="/operator-training/faq/">FAQ</a>
+        </li>
+
+      </ul>
+
+
+    </nav>
+    <div id="efclogos"><img src="/img/efc-sac-state-wht-1-color.png"/>
+      <ul class="nav-links">
+       <li>
+        <a href="http://www.ecs.csus.edu/">College of Engineering & Computer
+        Science</a>
+      </li>
+      <li>
+        <a href="http://www.ecs.csus.edu/ce/">Department of Civil
+        Engineering</a>
+      </li>
+
+
+    </ul>
+
+  </div>
+</div>
+</div>
+<div id="footercol4" class="phone-four">
+    <div class="footer-links">
+
+        <div id="efclogol"><img src="/img/efc-sac-state-wht-1-color.png"/></div>
+        <br>
+        <ul class="nav-links">
+            <li>
+             <a href="http://www.ecs.csus.edu/">College of Engineering & Computer
+             Science</a>
+            </li>
+            <li>
+             <a href="http://www.ecs.csus.edu/ce/">Department of Civil
+             Engineering</a>
+            </li>
+
+
+        </ul>
+
+    </div>
+</div>
+</div>
+
+</div>
+<br>
+</footer>
+
+</center>
+</div>
+<script type="text/javascript" src="/js/custom.js"></script>
+<script type="text/javascript" src="/js/usr.js"></script>
+<script type="text/javascript" src="/js/glossary.js"></script>
+<script>
+
+    var glossaryList;
+    $('#keywordSearch').on('keyup', function () {
+        var searchTerm = $.trim($(this).val());
+
+    // regex to allow insensitive case search
+    var regEx = new RegExp($.map(searchTerm.split(' '), function (v) {
+        return '(?=.*?' + v + ')';
+    }).join(''), 'i');
+
+    // select all list items, hide and filter by the regex then show
+    $('.accordion-content').hide().filter(function () {
+
+        return regEx.exec($(this).text());
+    }).show();
+
+    $('.accordion-content').unhighlight();
+    // highlitghts term if found
+    if (searchTerm) {
+        $('.accordion-content').highlight(searchTerm);
+    }
+});
+
+    $(document).ready(function () {
+        //getRandomList();
+    });
+
+
+    var tabs = Array.from(document.getElementsByClassName('tabs-title'));
+    tabs.forEach(function (t) {
+        var id = t.id;
+    });
+    function selectedTab(id) {
+        tabs.forEach(function (t) {
+            t.classList.toggle('./', t.id === id);
+        });
+    }
+
+    window.addEventListener('popstate', function (e) {
+        href = window.location.href;
+        var start = href.lastIndexOf("/");
+        var end = href.lastIndexOf(".php");
+        id = href.substring(start + 1, end);
+        openbackTab(id);
+    });
+    function openbackTab(id) {
+        $(".tabs-panel").css("display", "none");
+        $(".tabs-panel").removeClass("is-active");
+        $(".tabs-title a").attr("aria-selected", "false");
+        $("#" + id + "-title").attr("aria-selected", "true");
+        document.getElementById(id).style.display = 'block';
+        document.getElementById(id).classList.add("is-active");
+
+    }
+
+
+    function openTab(id) {
+        $(".tabs-panel").css("display", "none");
+        $(".tabs-panel").removeClass("is-active");
+        $(".tabs-title a").attr("aria-selected", "false");
+        $("#" + id + "-title").attr("aria-selected", "true");
+        document.getElementById(id).style.display = 'block';
+        document.getElementById(id).classList.add("is-active");
+        newurl = id + '.php';
+        history.pushState(id, 'Selected: ${id}', './' + newurl);
+        selectedTab(id);
+        if (id == 'featured-items') {
+            reset_featured_items();
+        }
+        if (id == 'stormwater') {
+            reset_stormwater_service();
+        }
+    }
+
+    function reset_featured_items() {
+        document.getElementById('featured-EFC2').style.display = "block";
+        var element = document.getElementsByClassName('lid');
+        for (var i = 0; i < element.length; i++) {
+            element[i].style.visibility = "hidden";
+            element[i].style.height = 0;
+            element[i].style.overflow = "hidden";
+        }
+        var header = document.getElementsByClassName('lid-sub-header');
+        for (var i = 0; i < header.length; i++) {
+            header[i].style.color = "white";
+            header[i].style.background = "rgba(0, 46, 35, 0.5)";
+        }
+    }
+
+    function reset_stormwater_service() {
+        var element = document.getElementsByClassName("strm-panel");
+        for (var i = 0; i < element.length; i++) {
+            element[i].style.visibility = "visible";
+            element[i].style.height = "unset";
+            element[i].style.overflow = "unset";
+
+        }
+        element = document.getElementsByClassName("strm");
+        for (var i = 0; i < element.length; i++) {
+            element[i].style.visibility = "hidden";
+            element[i].style.height = 0;
+            element[i].style.overflow = "hidden";
+        }
+    }
+
+    $("#Agenda-and-Presentations-title").click(function () {
+        $("#Agenda-and-Presentations").css("display", 'block');
+        $("#Sponsors").css("display", "none");
+    });
+    $("#Sponsor-title").click(function () {
+        $("#Sponsors").css("display", "block");
+        $("#Agenda-and-Presentations").css("display", 'none');
+    });
+
+</script>
+</body>
+</html>

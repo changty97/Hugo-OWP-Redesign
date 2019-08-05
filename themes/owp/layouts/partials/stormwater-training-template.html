@@ -1,0 +1,44 @@
+<section>
+	<div class="content">
+		<form id="stormwater-content">
+			<div class="row">
+				<div class="large-12 columns">
+					<div id="notification-update-panel"></div>
+					{{ partial "stormwater-training-tabs.html" . }}
+					<div class="tabs-content" data-tabs-content="research-tabs" id="panel">
+
+						<div class="tabs-panel is-active" id="operator-training">
+							<div class="columns large-12">
+								<div class="register-form-panel columns large-10 medium-10 small-10 large-offset-1 medium-offset-1 small-offset-1">
+									<h2>{{ .Title }}</h2>
+									
+									{{ .Content | markdownify }}
+
+									{{ if or ( eq .Description "cgp") ( eq .Description "igp") }}
+									<div class="register-form-header">
+										Public Lookup Tool
+									</div>
+									{{ end }}
+
+									{{ if eq .Description "cgp" }}
+									<div class="columns large-10 large-offset-1">
+										{{ partial "cgp-lookup-tool.html" . }}
+									</div>
+									{{ end }}
+									{{ if eq .Description "igp" }}
+									<div class="columns large-10 large-offset-1">
+										{{ partial "igp-lookup-tool.html" . }}
+									</div>
+									{{ end }}
+									{{ if eq .Description "bmp" }}
+									{{ partial "catalog-template.html" . }}
+									{{ end }}									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</form>
+	</div>
+</section>

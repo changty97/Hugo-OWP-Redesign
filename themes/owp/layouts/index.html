@@ -1,0 +1,42 @@
+{{ partial "header.html" . }}
+
+<div class="content">
+	<div id="register">
+		<div class="row" style="padding: 0; overflow: hidden;">
+			<div class="columns large-12">
+				<div class="columns large-12" id="level1">
+					{{ if .Site.Params.slider }}
+					{{ partial "slider-hero.html" . }}
+					{{ end }}			
+				</div>
+				<div class="columns large-12">
+
+					<div id="main-panels">
+						{{ if .Site.Params.course_types }}
+						{{ partial "course-hero.html" . }}
+						{{ end }}
+						<span class="clearfix"></span>
+						{{ if .Site.Params.popularcourses }}
+						{{ partial "mostpopular-courses-hero.html" . }}
+						{{ end }}
+						<span class="clearfix"></span>
+						{{ if .Site.Params.universityconnection }}
+						{{ partial "university-connection-hero.html" . }}
+						{{ end }}
+						<span class="clearfix"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function () {
+		$('.owp-slides').slick({
+			dots: true,
+			slickPlay: true,
+			speed: 2000
+		});
+	});
+</script>
+{{ partial "footer.html" . }}

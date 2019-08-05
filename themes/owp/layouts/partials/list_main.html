@@ -1,0 +1,36 @@
+<section>
+	<div class="content">
+		<form id="aboutUs">
+			<div class="row">
+				<div class="large-12 columns">
+					<div class="row">
+						<div class="columns large-7 large-offset-2">
+							<div id="notification-update-panel"></div>
+							
+							<ul>
+								{{ range .Pages }}
+								<li>
+									<a href="{{ .Permalink }}">{{ .Title }}</a>
+									{{ .Params.categories }}
+								</li>
+								{{ end }}
+							</ul>
+
+							<ul>
+								{{ range .Pages }}
+								{{ if eq .Section "upcoming-events" }}
+								<li>
+									<a href="{{ .Permalink }}">{{ .Title }}</a>
+
+									
+								</li>
+								{{ end }}
+								{{ end }}
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</section>

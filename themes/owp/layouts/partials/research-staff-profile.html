@@ -1,0 +1,15 @@
+<div class="columns large-6 large-offset-3" id="profile-main">
+     <center>
+        <img src="{{ .Params.img }}" alt="{{ .Title }}" class="img-circle">
+        <br>
+        <div class="register-form-panel profile-intro">
+            <h1>{{ .Title }}</h1>
+            <h3>{{ .Params.jobTitle }}</h3>
+
+            <label>{{ .Params.brief_desc | markdownify }} </label>
+        </div>
+    </center>
+    <div class="register-form-panel profile-panel">
+        {{ .Content | markdownify }}
+    </div>
+</div>

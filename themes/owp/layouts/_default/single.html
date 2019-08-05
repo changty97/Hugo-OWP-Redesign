@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+
+{{ if eq .Section "research" }}
+{{ partial "research-template.html" . }}
+{{ else }}
+{{ if eq .Section "stormwater-training" }}
+{{ partial "stormwater-training-template.html" . }}
+{{ else }}
+{{ if eq .Section "operator-training" }}
+{{ partial "operator-template.html" . }}
+{{ else }}
+{{ if eq .Section "university-connection" }}
+{{ partial "university-connection.html" . }}
+{{ else }}
+{{ partial "about.html" . }}
+{{ end }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ partial "footer.html" . }}

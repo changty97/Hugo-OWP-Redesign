@@ -1,0 +1,37 @@
+<ul class="list-unstyle">
+    <li><b>Stormwater</b></li>
+    <ul class="list-nav">
+        <li class='{{ if eq .Params.paper_type "bmp" }} item {{ end }}'>
+            <a href="/research/reports/stormwater/bmp/"> Best Management Practices (21) </a>
+        </li>
+        <li class='{{ if eq .Params.paper_type "erosion" }} item {{ end }}'>
+            <a href="/research/reports/stormwater/erosion/"> Erosion Control (16)</a>
+        </li>
+        <li class='{{ if eq .Params.paper_type "litter" }} item {{ end }}'>
+            <a href="/research/reports/stormwater/litter/"> Litter Management (5)</a>
+        </li>
+        <li class='{{ if eq .Params.paper_type "monitoring" }} item {{ end }}'>
+            <a href="/research/reports/stormwater/monitoring/"> Stormwater Monitoring (4)</a>
+        </li>
+        <li class='{{ if eq .Params.paper_type "water_quality" }} item {{ end }}'>
+            <a href="/research/reports/stormwater/water_quality/"> Water Quality (5)</a>
+        </li>
+    </ul>
+
+    <li><b>Wastewater Treatment</b></li>
+
+    <ul class="list-nav">
+        <li class='{{ if eq .Params.paper_type "study_planning" }} item {{ end }}'>
+            <a href="/research/reports/wastewater-treatment/study-planning/"> Study Planning (2)</a>
+        </li>
+        <li class='{{ if eq .Params.paper_type "data-evaluation" }} item {{ end }}'>
+            <a href="/research/reports/wastewater-treatment/data-evalution/"> Data Evaluation & Statistical Analysis (2)</a>
+        </li>
+        <li class='{{ if eq .Params.paper_type "feasibility" }} item {{ end }}'>
+            <a href="/research/reports/wastewater-treatment/feasibility/"> Feasibility Studies (9)</a>
+        </li>
+        <li class='{{ if eq .Params.paper_type "training" }} item {{ end }}'>
+            <a href="/research/reports/wastewater-treatment/training/"> Training (2)</a>
+        </li>
+    </ul>
+</ul>

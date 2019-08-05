@@ -1,0 +1,51 @@
+<section>
+	<div class="top-bar" id="research-menu">
+		<div class="top-bar-left">
+			<center>
+				<ul class="tabs" data-deep-link="true" data-deep-link-smudge="true"
+				data-deep-link-smudge-delay="600" id="research-tabs" data-options="deep_linking:true">
+				<li class='tabs-title' >
+					<a
+					{{if eq .Params.Description "university-connect" }}
+					aria-selected="true"	
+					{{ end }}
+					href="/university-connection/">
+					University Connection
+				</a>
+			</li>
+			<li class='tabs-title'>
+				<a href="/university-connection/owp-fellowship"
+				{{if eq .Params.Description "owp-fellowship" }}
+				aria-selected="true"	
+				{{ end }}> OWP Fellowship			
+			</a>
+		</li>
+		<li class='tabs-title'>
+			<a href="/university-connection/srcsd-sasd-fellowship"
+			{{if eq .Params.Description "SRCSD-SASD" }}
+			aria-selected="true"	
+			{{ end }}
+			> SRCSD-SASD-Fellowship
+		</a>
+	</li>
+	<li class='tabs-title'>
+		<a href="/university-connection/student-assistants"
+		{{if eq .Params.Description "student-assistant" }}
+		aria-selected="true"	
+		{{ end }}
+		> Student Assistants
+	</a>
+</li>
+	<li class='tabs-title'>
+		<a href="/university-connection/teaching"
+		{{if eq .Params.Description "teaching" }}
+		aria-selected="true"	
+		{{ end }}
+		> Teaching
+	</a>
+</li>
+</ul>
+</center>
+</div>
+</div>
+</section>

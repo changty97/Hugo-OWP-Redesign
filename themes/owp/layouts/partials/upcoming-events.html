@@ -1,0 +1,52 @@
+<section>
+	<div class="content">
+		<form id="upcomingEvents">
+			<div class="row">
+				<div class="large-12 columns">
+					<div class="row">
+						<div class="columns large-7 large-offset-2">
+							<div id="notification-update-panel"></div>
+							<h1> Upcoming Events </h1>
+							<p>To keep up with our upcoming events, like us on Facebook or follow
+							us on Twitter.</p>
+							<a class="condition-text" href="{{ .URL }}/water-seminars">View past water seminars.</a>
+							{{ range .Pages }}
+							{{ if .Params.current }}
+							<div class="register-form-panel">
+								<div class="register-form-header">
+									{{ .Title }}
+								</div>
+								<div class="columns large-9">
+									<b>Topic:</b> <a href="{{ .Params.DescriptionLink }}">{{ .Params.Description }}</a><br>
+									{{ if .Params.isSpeaker }}
+									<b>Speaker:</b> {{ .Params.SpeakerName }}<br>
+									{{ end }}
+
+									<b>When:</b> {{ .Params.When }}, {{ .Params.Time }}<br>
+									<b>Where:</b> {{ .Params.Where }}<br>
+									
+									{{ if .Params.isMap }}
+									<a href="{{ .Params.MapLink }}"> Location </a><br><br>
+									{{ end }}
+
+									{{ range  $links := .Params.otherLinks }}
+									<a href="{{ $links.link }}" class="condition-text"> {{ $links.text }} </a><br>
+									{{ end }}
+									<br><br>
+									
+									<a class="button success" href="{{ .Params.RegistrationBtnLink }}"> {{ .Params.RegisterBtnTitle }} 
+									</a>
+								</div>
+								<div class="columns large-3">
+									<a href="{{ .Params.img_link }}"><img src="{{ .Params.img }}" alt="{{ .Params.img_alt }}" width="135" height="175"></a>
+								</div>
+							</div>
+							{{ end }}
+							{{ end }}
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</section>

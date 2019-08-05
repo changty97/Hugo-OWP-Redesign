@@ -1,0 +1,56 @@
+<div id="stormwater">
+
+	{{ if isset .Params "weight" }}
+
+	<div class="columns large-12"style="padding-top: 40px;">
+		<div class="columns large-12">
+			{{ partial "stormwater-services-menu.html" . }}
+			<div class="columns small-8">
+				<h5>{{ .Title | markdownify }}</h5>
+				{{ .Content | markdownify }}
+				{{ partial "project-list-template.html" . }}
+
+			</div>
+		</div>
+	</div>
+
+
+	{{ else }}
+
+	<div class="columns large-12 medium-12">
+		<div class="columns large-offset-1 large-10">
+			{{ .Content | markdownify }}
+			{{ range .Pages }}
+			{{ if lt .Params.weight 5}}
+			<a href="{{ .URL }}"><div class="columns large-3 medium-12 strm-panel">
+				<div class="thumbnail">
+					<img src="{{ .Params.image }}" alt="Image" width="100%">
+					<div class="panel-content">
+						<h4>{{ .Params.title }}</h4>
+					</div>
+				</div>
+			</div>
+		</a>
+		{{ end }}
+		{{ end }}
+	</div>
+	<div class="columns large-offset-1 large-10">
+		{{ range .Pages }}
+		{{ if and (ge .Params.weight 5) (lt .Params.weight 10) }}
+		<a href="{{ .URL }}">
+			<div class="columns large-3 medium-12 strm-panel">
+				<div class="thumbnail">
+					<img src="{{ .Params.image }}" alt="Image" width="100%">
+					<div class="panel-content">
+						<h4>{{ .Params.title }}</h4>
+					</div>
+				</div>
+			</div>
+		</a>
+		{{ end }}
+		{{ end }}
+	</div>
+</div>
+
+{{ end }}
+</div>

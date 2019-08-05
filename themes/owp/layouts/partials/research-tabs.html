@@ -1,0 +1,71 @@
+<section>
+	<div class="top-bar" id="research-menu">
+		<div class="top-bar-left">
+
+			<center>
+				<ul class="tabs" data-deep-link="true" data-deep-link-smudge="true"
+				data-deep-link-smudge-delay="600" id="research-tabs" data-options="deep_linking:true">
+				<li class='tabs-title'>
+					<a
+					{{ if eq .Params.Description "research" }}
+					aria-selected="true"	
+					{{ end }}
+					href="/research/">
+					Research Home
+				</a>
+			</li>
+			<li class='tabs-title'>
+				<a href="/research/featured-items/"
+				{{ if or (eq .Params.Description "featured-items") (eq .Params.Description "campus-lid") }}
+				aria-selected="true"	
+				{{ end }}> Featured Items
+			</a>
+		</li>
+		<li class='tabs-title'>
+			<a href="/research/stormwater/"
+			{{ if eq .Params.Description "stormwater" }}
+			aria-selected="true"	
+			{{ end }}> Stormwater
+		</a>
+	</li>
+	<li class='tabs-title'>
+		<a href="/research/wastewater/"
+		{{ if eq .Params.Description "wastewater" }}
+		aria-selected="true"	
+		{{ end }}> Wastewater
+	</a>
+</li>
+<li class='tabs-title'>
+	<a href="/research/soils-and-groundwater/"
+	{{ if eq .Params.Description "soils and groundwater" }}
+	aria-selected="true"	
+	{{ end }}> Soils & Groundwater
+</a>
+</li>
+<li class='tabs-title'>
+	<a href="/research/software-tools/"
+	{{ if eq .Params.Description "software tools" }}
+	aria-selected="true"	
+	{{ end }}> Software Tools
+</a>
+</li>
+<li class='tabs-title'>
+	<a href="/research/reports/stormwater/bmp/"
+	{{ if eq .Params.Description "papers" }}
+	aria-selected="true"	
+	{{ end }}> Papers, Reports & Presentations
+</a>
+</li>
+<li class='tabs-title'>
+	<a href="/research/staff/"
+	{{ if or (eq .Params.Description "staff") (eq .Params.Description "research-staff") }}
+	aria-selected="true"	
+	{{ end }}> Staff
+</a>
+</li>
+
+</ul>
+</center>
+</div>
+</div>
+</section>

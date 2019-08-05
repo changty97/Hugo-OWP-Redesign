@@ -3,6 +3,7 @@
 	"date": "2019-07-24T10:33:13-07:00",
 	"Description": "course detail",
 	"courseType": "Management Courses",
+	"parentlink": "/operator-training/courses/correspondence-courses/management-courses",
 	"Tags": [],
 	"Categories": [],
 	"draft": false,

@@ -12,7 +12,6 @@ courseInfo:
    ceu: "1.8 CEUs (18 contact hours)"
    edition: "7th Edition"
    enroll: "$100 USD"
-   manual: ""
    detailbtn: ""
    cartbtn: ""
 
@@ -22,7 +21,6 @@ courseInfo:
    ceu: "1.8 CEUs (18 contact hours)"
    edition: "7th Edition"
    enroll: "$100 USD"
-   manual: ""
    detailbtn: ""
    cartbtn: ""
 
@@ -32,7 +30,6 @@ courseInfo:
    ceu: "1.8 CEUs (18 contact hours)"
    edition: "7th Edition"
    enroll: "$100 USD"
-   manual: ""
    detailbtn: ""
    cartbtn: ""
 
@@ -42,7 +39,6 @@ courseInfo:
    ceu: "1.8 CEUs (18 contact hours)"
    edition: "7th Edition"
    enroll: "$100 USD"
-   manual: ""
    detailbtn: ""
    cartbtn: ""
 
@@ -52,7 +48,6 @@ courseInfo:
    ceu: "1.8 CEUs (18 contact hours)"
    edition: "7th Edition"
    enroll: "$100 USD"
-   manual: ""
    detailbtn: ""
    cartbtn: ""
 

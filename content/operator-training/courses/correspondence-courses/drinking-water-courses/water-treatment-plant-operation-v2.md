@@ -3,6 +3,7 @@
 	"date": "2019-06-11T12:18:13-07:00",
 	"Description": "course detail",
 	"courseType": "Drinking Water Courses",
+	"parentlink": "/operator-training/courses/correspondence-courses/drinking-water-courses",
 	"Tags": [],
 	"Categories": [],
 	"draft": false,

@@ -36,7 +36,7 @@ In addition to removing pollutants, the LID BMPs reduce volumes of runoff that a
 	Funding and Collaboration
 </div>
 
-This project was funded by the State Water Resources Control Board’s Proposition 84 Stormwater Grant Program and in-kind contributions from the City of Sacramento Department of Utilities, Sacramento State’s OWP and Facilities Management, Cunningham Engineering Corporation, Urban Rain Design, County of Sacramento, and Dry Creek Conservancy. The project will serve as a demonstration project to showcase the City and County’s LID standards developed as part of the Sacramento Stormwater Quality Partnership’s recently released Stormwater Quality Design Manual.
+This project was funded by the State Water Resources Control Board’s Proposition 84 Stormwater Grant Program and in-kind contributions from the City of Sacramento Department of Utilities, Sacramento State’s OWP and Facilities Management, Cunningham Engineering Corporation, Urban Rain Design, County of Sacramento, and Dry Creek Conservancy. The project will serve as a demonstration project to showcase the City and County’s LID standards developed as part of the Sacramento Stormwater Quality Partnership’s recently released <a href="https://www.beriverfriendly.net/Newdevelopment/" target="_blank" rel="noopener">Stormwater Quality Design Manual</a>.
 
 Sacramento State’s Office of Water Programs (OWP) and Facilities Management serve as the university’s project leads. Use the links on the right side of this page to access more information about the project such as planning and design, construction, and monitoring. Check out Campus LID events at: https://www.owp.csus.edu/upcoming-events/.
 		</div>

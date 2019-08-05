@@ -1,39 +1,42 @@
-var currPage = getPagePath();
+var currPage    = getPagePath();
 var userIP      = getIP();
 var checkuser   = getCookies();
-$(document).ready(function () {
+$(document).ready(function ()
+{
     var notification = false;//true for notification
-        $(document).foundation();
-        $(function () {
-            $('body').removeClass('fade-out');
-        });
-        if (document.body.clientWidth < 912)
-        {
-            if(document.getElementById("example-menu"))
-                document.getElementById("example-menu").style.display = "none";
-            if(document.getElementById("stromwater-menu"))
-                document.getElementById("stromwater-menu").className += ' vertical';
-        } else {
-            $("#stromwater-menu").removeClass(' vertical');
-        }
+    $(document).foundation();
+    $(function () {
+        $('body').removeClass('fade-out');
+    });
+    if (document.body.clientWidth < 912)
+    {
+        if(document.getElementById("example-menu"))
+            document.getElementById("example-menu").style.display = "none";
+        if(document.getElementById("stromwater-menu"))
+            document.getElementById("stromwater-menu").className += ' vertical';
+    } else {
+        $("#stromwater-menu").removeClass(' vertical');
+    }
 
-        if(document.getElementById('notification-update-panel') != null){
-            if(notification){
-                document.getElementById('notification-update-panel').innerHTML="<div class='callout alert  radius' data-closable><h5>Campus Closure Update</h5>" +
-                    "<p>Sac state campus continues to be closed tomorrow. OWP will be closed as well.</p>" +
-                    "<button class='close-button' aria-label='Dismiss alert' type='button' data-close style='color: #8a8a8a;'><span aria-hidden='true'>&times;</span></button></div>";
-            }
-        }
-        checkSignedIn();
-        if(document.getElementById("learning_objective"))
-            accordion('learning_objective');
-        if(document.getElementById("glossary-links"))
-        {
-            accordion('glossary_terms');
-            getGlossaryIndex();
+    if(document.getElementById('notification-update-panel') != null){
+        if(notification){
+            document.getElementById('notification-update-panel').innerHTML="<div class='callout alert  radius' data-closable><h5>Campus Closure Update</h5>" +
+                "<p>Sac state campus continues to be closed tomorrow. OWP will be closed as well.</p>" +
+                "<button class='close-button' aria-label='Dismiss alert' type='button' data-close style='color: #8a8a8a;'><span aria-hidden='true'>&times;</span></button></div>";
         }
     }
-);
+    getSes();
+    checkSignedIn();
+    inactivityTime(); 
+    
+    if(document.getElementById("learning_objective"))
+        accordion('learning_objective');
+    if(document.getElementById("glossary-links"))
+    {
+        accordion('glossary_terms');
+        getGlossaryIndex();
+    }
+});
 $(document).on('close.fndtn.alert', function(event) {
     console.info('An alert box has been closed!');
 });

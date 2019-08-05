@@ -1,104 +1,110 @@
 <section>
 
-	<div class="columns large-12" id="catalog-detail">
-		<nav aria-label="You are here:" role="navigation">
-			<ul class="breadcrumbs">
-				<li><a href="/operator-training/courses/correspondence-courses/drinking-water-courses/"> {{ .Params.courseType }} </a></li>
-
-				<li>
-					<span class="show-for-sr">Current: </span> {{ .Title }}
-				</li>
-			</ul>
-		</nav>
-		<div class="columns large-8 large-offset-2 register-form-panel ">
-			
-			<h1>{{ .Title }}</h1>
-			<br>			
-			<div class="columns large-12">
-				<div class="columns large-4">
-
-					<img src="{{ .Params.img }}">
-					<br>
-					{{ if isset .Params "cartbtn" }}
-					<a href="{{ .Params.cartbtn | markdownify }}" class="button success">
-						Add to Cart
-					</a>
-					{{ end }}
-
-					<p><a href="{{ .Params.preview_link }}"> Preview Content </a><br>
-						{{ .Params.ceu | markdownify }}<br>
-
-						{{ if isset .Params "edition"}}
-						{{ .Params.edition | markdownify }}<br>
+		<div class="columns large-12" id="catalog-detail">
+			<nav aria-label="You are here:" role="navigation">
+				<ul class="breadcrumbs">
+					<li><a href="/operator-training/courses/correspondence-courses/drinking-water-courses/"> {{ .Params.courseType }} </a></li>
+	
+					<li>
+						<span class="show-for-sr">Current: </span> {{ .Title }}
+					</li>
+				</ul>
+			</nav>
+			<div class="columns large-8 large-offset-2 register-form-panel ">
+				
+				<h1>{{ .Title }}</h1>
+				<br>			
+				<div class="columns large-12">
+					<div class="columns large-4">
+	
+						<img src="{{ .Params.img }}">
+						<br>
+						{{ if isset .Params "cartbtn" }}
+						<a href="{{ .Params.cartbtn | markdownify }}" class="button success">
+							Add to Cart
+						</a>
+						{{ end }}
+	
+						<p><a href="{{ .Params.preview_link }}"> Preview Content </a><br>
+							{{ .Params.ceu | markdownify }}<br>
+	
+							{{ if isset .Params "edition"}}
+							{{ .Params.edition | markdownify }}<br>
+							{{ end }}
+							
+							{{ if isset .Params "isbn"}}
+							{{ .Params.isbn | markdownify }}<br>
+							{{ end }}
+							{{ if isset .Params "isbn_dvd"}}
+							{{ .Params.isbn_dvd | markdownify }}<br>
+							{{ end }}
+							{{ if isset .Params "time_limit"}}
+							<b>Course Time Limit: {{ .Params.time_limit | markdownify }}</b><br>
+							{{ end }}
+							{{ if isset .Params "enrollments"}}
+							<b>Enrollment:</b> {{ .Params.enrollments | markdownify }} <br>
+							{{ end }}
+	
+							{{ if isset .Params "manuals"}}
+							<b>Manual:</b> {{ .Params.manuals | markdownify }} <br>
+							{{ end }}
+							{{ if isset .Params "course_package"}}
+							<b>Course Package :</b> {{ .Params.course_package | markdownify }}<br>
+							(Enrollment + Manual)
+							{{ end }}
+							{{ if isset .Params "instructor_guide"}}
+							<div class="columns large-10" id="instructor_guide">
+												   
+								<p><b>Instructor Guide available*</b><br>
+								* {{ .Params.instructor_guide | markdownify }}</p>
+					
+							</div>
+							{{ end }}         
+						</p>
+					</div>
+					<div class="columns large-8">
+						<div class="form-header-dark">Objective</div>
+						<p>{{ .Params.objective | markdownify }}</p>
+						<br>
+						<div class="form-header-dark">Scope</div>
+						<p>{{ .Params.scope | markdownify }}</p>
+						<hr>
+						<h3>Table of Contents</h3>
+						Learning Objectives (Click chapter title to open)
+						<ol id="learning_objective">
+						{{ range  $chapter := .Params.table_index }}
+							<li>
+								{{ if isset $chapter "text"}}
+									<dt><a>{{$chapter.title}}</a></dt>
+								{{ else }}
+									<span>{{$chapter.title}}</span>
+								{{ end }}
+								
+								{{ if isset $chapter "text"}}
+								<dd class="panel-closed">
+								  {{$chapter.text | markdownify }}
+								</dd>
+								{{ end }}
+							</li>
+						{{ end }}
+						</ol>
+						{{ if isset .Params "other_sections"}}
+						Other Sections:
+						<ol>				
+							{{ range  $section := .Params.other_sections }}
+							<li>{{ $section }}</a></li>
+							{{ end }}
+						</ol>
+						{{ end }}
+						{{ if isset .Params "cartbtn" }}
+						<a href="{{ .Params.cartbtn | markdownify }}" class="button success">
+							Add to Cart
+						</a>
 						{{ end }}
 						
-						{{ if isset .Params "isbn"}}
-						{{ .Params.isbn | markdownify }}<br>
-						{{ end }}
-                        {{ if isset .Params "isbn_dvd"}}
-						{{ .Params.isbn_dvd | markdownify }}<br>
-						{{ end }}
-						{{ if isset .Params "time_limit"}}
-						<b>Course Time Limit: {{ .Params.time_limit | markdownify }}</b><br>
-						{{ end }}
-						{{ if isset .Params "enrollments"}}
-						<b>Enrollment:</b> {{ .Params.enrollments | markdownify }} <br>
-						{{ end }}
-
-						{{ if isset .Params "manuals"}}
-						<b>Manual:</b> {{ .Params.manuals | markdownify }} <br>
-						{{ end }}
-						{{ if isset .Params "course_package"}}
-						<b>Course Package :</b> {{ .Params.course_package | markdownify }}<br>
-						(Enrollment + Manual)
-						{{ end }}
-                        {{ if isset .Params "instructor_guide"}}
-						<div class="columns large-10" id="instructor_guide">
-                                               
-							<p><b>Instructor Guide available*</b><br>
-							* {{ .Params.instructor_guide | markdownify }}</p>
-                
-						</div>
-                        {{ end }}         
-					</p>
+					</div>
 				</div>
-				<div class="columns large-8">
-					<div class="form-header-dark">Objective</div>
-					<p>{{ .Params.objective | markdownify }}</p>
-					<br>
-					<div class="form-header-dark">Scope</div>
-					<p>{{ .Params.scope | markdownify }}</p>
-					<hr>
-					<h3>Table of Contents</h3>
-					Learning Objectives (Click chapter title to open)
-                    <ol id="learning_objective">
-                    {{ range  $chapter := .Params.table_index }}
-                        <li>
-                            <dt><a>{{$chapter.title}}</a></dt>
-                            
-                            <dd class="panel-closed">
-                              {{$chapter.text | markdownify }}
-                            </dd>
-                        </li>
-                    {{ end }}
-                    </ol>
-                    {{ if isset .Params "other_sections"}}
-                    Other Sections:
-					<ol>				
-						{{ range  $section := .Params.other_sections }}
-						<li>{{ $section }}</a></li>
-						{{ end }}
-					</ol>
-                    {{ end }}
-					{{ if isset .Params "cartbtn" }}
-					<a href="{{ .Params.cartbtn | markdownify }}" class="button success">
-						Add to Cart
-					</a>
-					{{ end }}
-					
-				</div>
+	
 			</div>
-
 		</div>
-	</div>
-</section>
+	</section>

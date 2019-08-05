@@ -33,6 +33,34 @@ ol{
     font-size:16px;
     margin:0 0 100px;
 }
+.thumb-container{
+    height:208px;
+}
+.thumb-container img{
+    height:100%;
+}
+.thumbnail > .thumnail-panel {
+    border: 0;
+    min-height: 320px;
+    padding: 0;
+}
+
+.thumbnail > .thumnail-panel > p:nth-child(2){
+    overflow:hidden;
+    height:115px;
+    width: calc (25%);
+    margin-bottom:10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.thumbnail > .btn-container{
+    height:41px;
+    overflow:hidden;
+}
+.thumbnail > .btn-container > .button{
+    margin-bottom:1px;
+}
 .annual-reports img{
     float:left; margin-right: 50px; height: 220px;
 }
@@ -1416,12 +1444,6 @@ html {
     border-radius: 2px;
     margin-top: 5px;
     overflow: auto;
-}
-
-.thumbnail > .thumnail-panel {
-    border: 0;
-    min-height: 350px;
-    padding: 0;
 }
 
 #register-form-header, .register-form-header {

@@ -11,13 +11,13 @@
 	"project_list": [
 	{
 		"title": "Caltrans BMP Verification Studies",
-		"desc": "OWP has provided technical assistance to the California Department of Transportation (Caltrans) Division of Environmental Analysis for almost 20 years. OWP has supported Caltrans and its consultants in dozens of best management practice (BMP) verification studies, including vegetated strips and swales, sand and alternative media filters, bioretention systems, chemical treatment, litter and gross solids removal devices, infiltration systems, and porous pavement are some of the BMPs evaluated. To support and align these studies, OWP participated in development of Caltrans BMP Pilot Study Guidance Manual, Stormwater Monitoring Guidance Manual, Treatment BMP Technology Report, and Hydrologic Utility Tool.",
+		"desc": "OWP has provided technical assistance to the California Department of Transportation (Caltrans) Division of Environmental Analysis for almost 20 years. OWP has supported Caltrans and its consultants in dozens of best management practice (BMP) verification studies, including vegetated strips and swales, sand and alternative media filters, bioretention systems, chemical treatment, litter and gross solids removal devices, infiltration systems, and porous pavement are some of the BMPs evaluated. To support and align these studies, OWP participated in development of Caltrans <a href=''>BMP Pilot Study Guidance Manual</a>, <a href=''>Stormwater Monitoring Guidance Manual</a>, <a href=''>Treatment BMP Technology Report</a>, and Hydrologic Utility Tool.",
 		"contact" : "Kevin Murphy",
 		"link": ""
 	},
 	{
 		"title": "Caltrans Runoff Characterization Studies",
-		"desc": "Since the late 1990s, OWP has supported the California Department of Transportation (Caltrans) in multiple assessments of runoff discharged from their highways and facilities. Statewide discharge characterization study, Tahoe highway runoff characterization study, areas of Special Biological Signification (ASBS) study, construction site runoff characterization study , and aquatic toxicity testing. Specific services have included developing study plans, providing technical advice on monitoring protocols, evaluating water quality data, and developing conclusions.",
+		"desc": "Since the late 1990s, OWP has supported the California Department of Transportation (Caltrans) in multiple assessments of runoff discharged from their highways and facilities. <a href=''>Statewide discharge characterization study</a>, <a href=''>Tahoe highway runoff characterization study</a>, <a href=''>areas of Special Biological Signification (ASBS) study</a>, <a href=''>construction site runoff characterization study</a>, and aquatic toxicity testing. Specific services have included developing study plans, providing technical advice on monitoring protocols, evaluating water quality data, and developing conclusions.",
 		"contact" : "Kevin Murphy",
 		"link": ""
 	},

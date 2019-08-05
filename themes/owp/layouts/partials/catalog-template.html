@@ -1,7 +1,9 @@
 {{ range $course := .Params.courseInfo }}
 <div class="columns large-3 medium-6">
 	<div class="thumbnail" id="wtpo1">
-		<img src="{{ $course.img }}">
+        <div class="thumb-container">
+            <img src="{{ $course.img }}">
+        </div>
 		<hr>
 		<div class="thumnail-panel">
 			<p>

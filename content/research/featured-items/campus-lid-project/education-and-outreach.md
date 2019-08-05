@@ -40,7 +40,7 @@ You can take the Sac State Campus LID tour virtually or in person with your mobi
 </div>
 <div class="columns large-8">
 
-Starting in late September, OWP began installing interpretive signage for all of the Campus LID sites. All of the LID sites have interpretive signs installed. These signs explain what type of LID device has been installed at each site, provide illustrations of the devices, and describe how the devices work. All of the LID sites have interretive signs installed. View the PDF containing all of the LID sites.
+Starting in late September, OWP began installing interpretive signage for all of the Campus LID sites. All of the LID sites have interpretive signs installed. These signs explain what type of LID device has been installed at each site, provide illustrations of the devices, and describe how the devices work. All of the LID sites have interretive signs installed. <a href="/pdf/lid/signs/sac-state-lid-interpretive-signs-installed-2016.pdf">View the PDF</a> containing all of the LID sites.
 </div>
 
 &nbsp;

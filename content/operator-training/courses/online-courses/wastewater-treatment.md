@@ -13,7 +13,6 @@ courseInfo:
    edition: "7th Edition"
    isbn_cd: "978-1-59371-044-6"
    enroll: "$50 USD"
-   manual: ""
    detailbtn: ""
    cartbtn: ""
 
@@ -24,7 +23,6 @@ courseInfo:
    edition: "7th Edition"
    isbn_cd: "978-1-59371-045-3"
    enroll: "$50 USD"
-   manual: ""
    detailbtn: ""
    cartbtn: ""
 
@@ -35,7 +33,6 @@ courseInfo:
    edition: "7th Edition"
    isbn_cd: "978-1-59371-046-0"
    enroll: "$50 USD"
-   manual: ""
    detailbtn: ""
    cartbtn: ""
 
@@ -46,7 +43,6 @@ courseInfo:
    edition: "7th Edition"
    isbn_cd: "978-1-59371-047-7"
    enroll: "$50 USD"
-   manual: ""
    detailbtn: ""
    cartbtn: ""
 
@@ -57,7 +53,6 @@ courseInfo:
    edition: "7th Edition"
    isbn_cd: "978-1-59371-048-4"
    enroll: "$50 USD"
-   manual: ""
    detailbtn: ""
    cartbtn: ""
 

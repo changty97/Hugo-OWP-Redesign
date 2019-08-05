@@ -13,7 +13,7 @@ courseInfo:
    ceu: "2 CEUs (20 contact hours)"
    edition: "2th Edition"
    enroll: "$55 USD"
-   manual: ""
+   manual: "$95 USD"
    detailbtn: ""
    cartbtn: ""
 

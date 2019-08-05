@@ -1,0 +1,150 @@
+How to push and merge in GIT:
+******************************
+1) cd git						[change folder]
+2) cd owp-hugo-site				
+3) git checkout -b tchang/(branch name) 		[check out or create a new branch]
+4) git pull origin master 					[pull the master branch from github with the latest changes]
+5) git add -A 						[Add changes for a commit]
+6) git commit -m "{commit note detailing changes}"	[commit & add notes of changes]
+7)git push origin tchang/(branch name)			[push changes to github]
+
+
+
+
+
+
+
+How it looks like in Git Bash CMD:
+************************************
+owp-sp05@OWP-R990-07 MINGW64 /u (tchang/git)
+$ cd git
+
+owp-sp05@OWP-R990-07 MINGW64 /u/git (master)
+$ ls
+owp-hugo-site/
+
+owp-sp05@OWP-R990-07 MINGW64 /u/git (master)
+$ cd owp-hugo-site
+
+owp-sp05@OWP-R990-07 MINGW64 /u/git/owp-hugo-site (master)
+$ git checkout -b tchang/accordion
+Switched to a new branch 'tchang/accordion'
+M       themes/owp/layouts/partials/course-detail.html
+
+owp-sp05@OWP-R990-07 MINGW64 /u/git/owp-hugo-site (tchang/accordion)
+$ git pull origin master
+remote: Counting objects: 15, done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 15 (delta 11), reused 0 (delta 0)
+Unpacking objects: 100% (15/15), done.
+From https://bitbucket.org/waterprograms/owp-hugo-site
+ * branch            master     -> FETCH_HEAD
+   27ac539..6816011  master     -> origin/master
+Checking out files: 100% (8/8), done.
+Updating 27ac539..6816011
+Fast-forward
+ themes/owp/layouts/partials/catalog-template.html  |  17 ++-
+ themes/owp/layouts/partials/course-detail.html     |   6 +-
+ themes/owp/layouts/partials/efc.html               |   2 +-
+ themes/owp/layouts/partials/footer.html            | 154 ++++++++++++++++++---
+ themes/owp/layouts/partials/glossary.html          |  84 ++++++-----
+ themes/owp/layouts/partials/operator-template.html | 115 ---------------
+ .../layouts/partials/research-staff-profile.html   |   2 +-
+ .../layouts/partials/university-connection.html    |   2 +-
+ 8 files changed, 194 insertions(+), 188 deletions(-)
+
+
+IMPORTANT!
+*************************************************************************************
+*************************************************************************************
+- Go into VS Code and look at the differences in your local file to the git file
+- Then copy the file from your local and paste into the git file
+*************************************************************************************
+*************************************************************************************
+
+owp-sp05@OWP-R990-07 MINGW64 /u/git/owp-hugo-site (tchang/accordion)
+$ git add -A
+
+owp-sp05@OWP-R990-07 MINGW64 /u/git/owp-hugo-site (tchang/accordion)
+$ git commit -m "Added Wastewater and Managememnt courses"
+[tchang/accordion d31e57d] Added Wastewater and Managememnt courses
+ Committer: tyler.chang@owp.csus.edu <owp-sp05@csus.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 19 files changed, 1215 insertions(+), 20 deletions(-)
+ create mode 100644 content/operator-training/courses/correspondence-courses/management-courses/manage-for-success-effective-utility-leadership-practices.md
+ create mode 100644 content/operator-training/courses/correspondence-courses/management-courses/utility-management.md
+ create mode 100644 content/operator-training/courses/correspondence-courses/wastewater-courses/advanced-waste-treatment.md
+ create mode 100644 content/operator-training/courses/correspondence-courses/wastewater-courses/collection-system-operation-and-maintenance-training-videos.md
+ create mode 100644 content/operator-training/courses/correspondence-courses/wastewater-courses/collection-systems-methods-for-evaluating-and-improving-performance.md
+ create mode 100644 content/operator-training/courses/correspondence-courses/wastewater-courses/industrial-waste-treatment-v1.md
+ create mode 100644 content/operator-training/courses/correspondence-courses/wastewater-courses/industrial-waste-treatment-v2.md
+ create mode 100644 content/operator-training/courses/correspondence-courses/wastewater-courses/membrane-bioreactors.md
+ create mode 100644 content/operator-training/courses/correspondence-courses/wastewater-courses/operation-maintenance-of-collection-systems-v1.md
+ create mode 100644 content/operator-training/courses/correspondence-courses/wastewater-courses/operation-maintenance-of-collection-systems-v2.md
+ create mode 100644 content/operator-training/courses/correspondence-courses/wastewater-courses/operation-of-wastewater-treatment-plants-v1.md
+ create mode 100644 content/operator-training/courses/correspondence-courses/wastewater-courses/operation-of-wastewater-treatment-plants-v2.md
+ create mode 100644 content/operator-training/courses/correspondence-courses/wastewater-courses/pretreatment-facility-inspection-training-videos.md
+ create mode 100644 content/operator-training/courses/correspondence-courses/wastewater-courses/pretreatment-facility-inspection.md
+ create mode 100644 content/operator-training/courses/correspondence-courses/wastewater-courses/small-wastewater-system-operation-and-maintenance-v1.md
+ create mode 100644 content/operator-training/courses/correspondence-courses/wastewater-courses/small-wastewater-system-operation-and-maintenance-v2.md
+ create mode 100644 content/operator-training/courses/correspondence-courses/wastewater-courses/struvite-precipitation-potential-calculation-tool.md
+ create mode 100644 content/operator-training/courses/correspondence-courses/wastewater-courses/treatment-of-metal-wastestreams.md
+
+owp-sp05@OWP-R990-07 MINGW64 /u/git/owp-hugo-site (tchang/accordion)
+$ git push origin tchang/accordion
+Enumerating objects: 33, done.
+Counting objects: 100% (33/33), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (27/27), 47.55 KiB | 320.00 KiB/s, done.
+Total 27 (delta 7), reused 0 (delta 0)
+remote:
+remote: Create pull request for tchang/accordion:
+remote:   https://bitbucket.org/waterprograms/owp-hugo-site/pull-requests/new?source=tchang/accordion&t=1
+remote:
+To https://bitbucket.org/waterprograms/owp-hugo-site.git
+ * [new branch]      tchang/accordion -> tchang/accordion
+
+
+IMPORTANT!
+***************************************************
+***************************************************
+- Go to BitBucket (https://bitbucket.org/waterprograms/owp-hugo-site/pull-requests/)
+- Pull Request
+- Click "create a pull request"
+- Should see your branch on the left side going into the master on the right side [IMPORTANT!! Look at the Differences]
+- Click "Create pull request"
+- Click "Merge" [This will merge your local dev folder into the master]
+- Click "Merge" again to do a final merge
+***************************************************
+***************************************************
+
+
+************************************************************************
+Here you can create a new Branch or stay in the same Branch
+************************************************************************
+owp-sp05@OWP-R990-07 MINGW64 /u/git/owp-hugo-site (tchang/accordion)
+$ git checkout tchang/accordion
+Already on 'tchang/accordion'
+
+owp-sp05@OWP-R990-07 MINGW64 /u/git/owp-hugo-site (tchang/accordion)
+$ git pull origin master
+remote: Counting objects: 1, done.
+remote: Total 1 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (1/1), done.
+From https://bitbucket.org/waterprograms/owp-hugo-site
+ * branch            master     -> FETCH_HEAD
+   6816011..ff2bff2  master     -> origin/master
+Updating d31e57d..ff2bff2
+Fast-forward
+
